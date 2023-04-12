@@ -6,7 +6,8 @@ module.exports = function (eleventyConfig) {
         const metadata = await Image(`${dirname(inputPath)}/${src}`, {
             widths: [800],
             formats: ['avif', 'webp', 'jpeg'],
-            outputDir: '_site/img',
+            outputDir: '_site/blog/img',
+            urlPath: '/blog/img/',
         });
 
         const imageAttributes = {
