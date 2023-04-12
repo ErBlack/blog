@@ -1,0 +1,6 @@
+---
+layout: layout.html
+---
+
+{% for post in collections.sketch %} {% for src in post.data.images %}
+<a href="{{post.url}}">{% image src, '', post.inputPath %}</a> {% endfor %} {% endfor %}

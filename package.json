@@ -8,7 +8,11 @@
   },
   "description": "ErBlack's blog",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "clean": "rm -rf _site",
+    "prestart": "npm run clean",
+    "start": "eleventy --serve"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/ErBlack/blog.git"
