@@ -1,0 +1,24 @@
+---
+title: Blog
+layout: layout.liquid
+pagination:
+    data: collections.post
+    size: 50
+    alias: posts
+---
+
+<ul>
+    {% for post in posts %}
+    <li><a href="{{post.url}}">{{post.data.title | escape}}</a></li>
+    {% endfor %}
+</ul>
+
+<nav>
+  {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">←</a>{% endif %}
+  <ol>
+    {% for href in pagination.hrefs %}
+    <li><a {% if page.url != href %}href="{{href}}"{% else %}aria-current="page"{% endif %}>{{ forloop.index }}</a></li>
+    {% endfor %}
+  </ol>
+  {% if pagination.href.next %}<a href="{{ pagination.href.next }}">→</a>{% endif %}
+</nav>
