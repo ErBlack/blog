@@ -6,15 +6,17 @@ pagination:
     size: 50
     alias: posts
 ---
-
-<ul>
-    {% for post in posts %}
-    <li><a href="{{post.url}}">{{post.data.title | escape}}</a></li>
-    {% endfor %}
-</ul>
+<main class="layout">
+    
+   <h1>{{title}}</h1>
+    <ul class="posts">
+      {% for post in posts %}
+      <li><a href="{{post.url}}">{{post.data.title | escape}}</a></li>
+      {% endfor %}
+    </ul>
 
 <nav class="pagination">
-  {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">←</a>{% endif %}
+  <a {% if pagination.href.previous %}href="{{ pagination.href.previous }}"{% endif %}>←</a>
   <ol class="pagination__pages">
     {% for href in pagination.hrefs %}
     <li class="pagination__item">
@@ -22,5 +24,6 @@ pagination:
     </li>
     {% endfor %}
   </ol>
-  {% if pagination.href.next %}<a href="{{ pagination.href.next }}">→</a>{% endif %}
+  <a {% if pagination.href.next %}href="{{ pagination.href.next }}"{% endif %}>→</a>
 </nav>
+<main>

@@ -4,6 +4,8 @@ const sketch = require('./lib/shortcodes/sketch.js');
 const year = require('./lib/filters/year.js');
 
 module.exports = function (eleventyConfig) {
+    eleventyConfig.addPassthroughCopy('blog/main.css');
+
     eleventyConfig.addShortcode('postImages', postImages);
     eleventyConfig.addShortcode('sketch', sketch);
 
