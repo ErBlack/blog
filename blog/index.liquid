@@ -13,11 +13,13 @@ pagination:
     {% endfor %}
 </ul>
 
-<nav>
+<nav class="pagination">
   {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">←</a>{% endif %}
-  <ol>
+  <ol class="pagination__pages">
     {% for href in pagination.hrefs %}
-    <li><a {% if page.url != href %}href="{{href}}"{% else %}aria-current="page"{% endif %}>{{ forloop.index }}</a></li>
+    <li class="pagination__item">
+      <a {% if page.url != href %}href="{{href}}"{% else %}aria-current="page"{% endif %}>{{ forloop.index }}</a>
+    </li>
     {% endfor %}
   </ol>
   {% if pagination.href.next %}<a href="{{ pagination.href.next }}">→</a>{% endif %}
