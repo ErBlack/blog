@@ -2,7 +2,18 @@
 layout: layout.html
 ---
 
+<nav>
+    {% assign previousPost = collections.post | getPreviousCollectionItem: page %}
+    {% if previousPost %}
+    <a href="{{ previousPost.url | url }}" title="{{ previousPost.data.title | escape }}">←</a>
+    {% endif %}
+
+    {% assign nextPost = collections.post | getNextCollectionItem: page %} 
+    {% if nextPost %}
+    <a href="{{ nextPost.url | url }}" title="{{ nextPost.data.title | escape }}">→</a>
+    {% endif %}
+</nav>
 <main>
-<h1>{{title}}</h1>
+<h1>{{title | escape}}</h1>
 {{content}}
 </main>

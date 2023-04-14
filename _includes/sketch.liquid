@@ -2,7 +2,6 @@
 layout: post.liquid
 ---
 
-{% capture images %}{%postImages%}{% endcapture %}
-{% for src in images %}{% sketch src %}{% endfor %}
+{%postImages%}
 
 {{content}}
