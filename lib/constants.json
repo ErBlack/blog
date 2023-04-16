@@ -1,0 +1,11 @@
+{
+    "POSTS_PATH": "./blog/posts",
+    "IMAGE_EXTENSIONS": [
+        ".jpg",
+        ".jpeg",
+        ".png",
+        ".gif",
+        ".webp",
+        ".avif"
+    ]
+}
