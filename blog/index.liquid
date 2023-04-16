@@ -1,0 +1,31 @@
+---
+title: ErBlog
+layout: layout.liquid
+styles:
+    /blog/index.css
+pagination:
+    data: collections.post
+    size: 50
+    alias: posts
+---
+<main class="layout">
+    
+   <h1>{{title}}</h1>
+    <ul class="posts">
+      {% for post in posts %}
+      <li>{% render "preview",  post: post %}</li>
+      {% endfor %}
+    </ul>
+
+<nav class="navigation">
+  <a class="navigation__link" {% if pagination.href.previous %}href="{{ pagination.href.previous }}"{% endif %}>←</a>
+  <ol class="pagination__pages">
+    {% for href in pagination.hrefs %}
+    <li class="pagination__item">
+      <a class="navigation__link" {% if page.url != href %}href="{{href}}"{% else %}aria-current="page"{% endif %}>{{ forloop.index }}</a>
+    </li>
+    {% endfor %}
+  </ol>
+  <a class="navigation__link" {% if pagination.href.next %}href="{{ pagination.href.next }}"{% endif %}>→</a>
+</nav>
+<main>
