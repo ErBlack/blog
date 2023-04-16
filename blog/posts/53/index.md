@@ -7,4 +7,4 @@ tags:
 layout: sketch.liquid
 ---
 
-Сходил на встречу @sketchinginbelgrade. Вот что получилось)
+Сходил на встречу [@sketchinginbelgrade](https://t.me/sketchinginbelgrade). Вот что получилось)

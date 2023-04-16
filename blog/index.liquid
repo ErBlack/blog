@@ -5,7 +5,8 @@ styles:
     /blog/index.css
 pagination:
     data: collections.post
-    size: 50
+    size: 25
+    reverse: true
     alias: posts
 ---
 <main class="layout">
@@ -18,7 +19,7 @@ pagination:
     </ul>
 
 <nav class="navigation">
-  <a class="navigation__link" {% if pagination.href.previous %}href="{{ pagination.href.previous }}"{% endif %}>←</a>
+  <a class="navigation__link" {% if pagination.href.previous %}href="{{ pagination.href.previous }}" id="go-left"{% endif %}>←</a>
   <ol class="pagination__pages">
     {% for href in pagination.hrefs %}
     <li class="pagination__item">
@@ -26,6 +27,6 @@ pagination:
     </li>
     {% endfor %}
   </ol>
-  <a class="navigation__link" {% if pagination.href.next %}href="{{ pagination.href.next }}"{% endif %}>→</a>
+  <a class="navigation__link" {% if pagination.href.next %}href="{{ pagination.href.next }}" id="go-right"{% endif %}>→</a>
 </nav>
 <main>

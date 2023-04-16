@@ -11,6 +11,6 @@ layout: sketch.liquid
 
 Бумажный блокнот и ручка. Под ними электронный планшет. Ручка рисует на бумаге, планшет запоминает и отправляет на телефон.
 
--   iPhone
--   Bamboo Slate
--   Inkspace App
+-   [iPhone](http://apple.com/iphone)
+-   [Bamboo Slate](https://www.wacom.com/ru-ru/products/smartpads/bamboo-slate-and-bamboo-folio)
+-   [Inkspace App](https://apps.apple.com/us/app/wacom-inkspace-app/id1029007767)

@@ -3,6 +3,12 @@
     --gap-m: 16px;
     --gap-l: 32px;
     --border-radius: 4px;
+    --color-text: #222;
+    --color-link-hover: #203ba8;
+    --color-link: #265bfb;
+    --color-link-visited: #522784;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-text);
 }
 
 html,
@@ -14,6 +20,18 @@ body {
 
 a {
     text-decoration: none;
+}
+
+a:not(:hover) {
+    color: var(--color-link);
+}
+
+a:not(:hover):visited {
+    color: var(--color-link-visited);
+}
+
+a:hover {
+    color: var(--color-link-hover);
 }
 
 .navigation {

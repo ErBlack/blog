@@ -7,4 +7,4 @@ tags:
 layout: sketch.liquid
 ---
 
-Третий раз сходил на встречу @sketchinginbelgrade. Долго не мог сообразить в какую сторону должен гнуться дом.
+Третий раз сходил на встречу [@sketchinginbelgrade](https://t.me/sketchinginbelgrade). Долго не мог сообразить в какую сторону должен гнуться дом.

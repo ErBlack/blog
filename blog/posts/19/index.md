@@ -13,4 +13,4 @@ layout: sketch.liquid
 
 Наклейки потом можно аккуратно встроить в скетч.
 
-Zoemini
+-   [Zoemini](https://www.canon.ru/printers/zoemini/)

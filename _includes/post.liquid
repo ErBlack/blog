@@ -8,13 +8,12 @@ layout: layout.liquid
     {{content}}
 </section>
 <nav class="navigation">
-    {% assign previousPost = collections.post | getPreviousCollectionItem: page %}
-    <a class="navigation__link" {% if previousPost %}href="{{ previousPost.url | url }}" title="{{ previousPost.data.title | escape }}"{% endif %}>←</a>
+    {% assign nextPost = collections.post | getNextCollectionItem: page %}
+    <a class="navigation__link" {% if nextPost %}href="{{ nextPost.url | url }}" id="go-left" title="{{ nextPost.data.title | escape }}"{% endif %}>←</a>
     
     <a class="navigation__link" href="/blog/">🔝</a>
-    
-    {% assign nextPost = collections.post | getNextCollectionItem: page %}
-    
-    <a class="navigation__link" {% if nextPost %}href="{{ nextPost.url | url }}" title="{{ nextPost.data.title | escape }}"{% endif %}>→</a>
+
+    {% assign previousPost = collections.post | getPreviousCollectionItem: page %}
+    <a class="navigation__link" {% if previousPost %}href="{{ previousPost.url | url }}"  id="go-right" title="{{ previousPost.data.title | escape }}"{% endif %}>→</a>
 </nav>
 </main>

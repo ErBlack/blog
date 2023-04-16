@@ -12,7 +12,7 @@ layout: sketch.liquid
 Вам понадобится:
 
 1. Скетчи
-2. платный Photoshop или бесплатная Photopea.com
+2. платный [Photoshop](https://www.adobe.com/products/photoshop.html) или бесплатная [Photopea.com](https://www.photopea.com/)
 3. Немного времени
 
-Вот что получилось у меня: https://t.me/addstickers/ErSketch
+Вот что получилось у меня: [https://t.me/addstickers/ErSketch](https://t.me/addstickers/ErSketch)

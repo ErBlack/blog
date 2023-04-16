@@ -13,9 +13,9 @@ layout: sketch.liquid
 
 Блокнот от Майка Роуди, автора моих любимых книжек про скетчи. Я его на кикстартере купил.
 
--   Sketchnote Ideabook
--   Airship Autoquill
--   Nomess Bookmark
--   Sakura Pigma Micron
--   Shinhan Touch Liner Brush
--   Magcon Design Tool
+-   [Sketchnote Ideabook](https://sketchnoteideabook.com/)
+-   [Airship Autoquill](https://airship.store/products/autoquill)
+-   [Nomess Bookmark](https://nomess.com/collections/workspace/products/bookmark-2-pcs)
+-   [Sakura Pigma Micron](https://www.sakuraofamerica.com/product/pigma-micron/)
+-   [Shinhan Touch Liner Brush](http://eng.shinhanart.com/)
+-   [Magcon Design Tool](https://www.ddiin.com/collections/magcon)

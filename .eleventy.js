@@ -12,9 +12,11 @@ const year = require('./lib/filters/year.js');
  */
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('blog/*.css');
+    eleventyConfig.addPassthroughCopy('blog/*.js');
 
     eleventyConfig.addShortcode('sketch', sketch);
     eleventyConfig.addShortcode('cover', cover);
 
     eleventyConfig.addFilter('year', year);
+    eleventyConfig.addFilter('strip_links', require('./lib/filters/stripLinks.js'));
 };

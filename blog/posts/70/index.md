@@ -7,6 +7,6 @@ tags:
 layout: sketch.liquid
 ---
 
-Возвращение Little Ivan!
+Возвращение [Little Ivan](/blog/posts/70/)!
 
-На этот раз в воплощении из лего от mayhemcreations из tiktok.
+На этот раз в воплощении из лего от [mayhemcreations](https://www.tiktok.com/@mayhemcreations) из tiktok.

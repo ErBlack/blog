@@ -4,6 +4,7 @@
     padding: 0;
     display: grid;
     gap: var(--gap-l);
+    margin-bottom: var(--gap-l);
 }
 
 .preview {
@@ -16,12 +17,10 @@
 
 .preview__cover {
     grid-area: cover;
-    height: 90px;
-    width: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 107px;
+    width: 107px;
     margin-right: var(--gap-m);
+    text-align: right;
 }
 
 .preview__image {
@@ -42,6 +41,8 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+    line-height: 1.4;
+    color: var(--color-text);
 }
 
 .preview__content p {
