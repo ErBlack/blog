@@ -1,0 +1,20 @@
+---
+layout: layout.liquid
+---
+
+<main class="layout">
+<h1>{{title | escape}}</h1>
+<section>
+    {{content}}
+</section>
+<nav class="navigation">
+    {% assign previousPost = collections.post | getPreviousCollectionItem: page %}
+    <a class="navigation__link" {% if previousPost %}href="{{ previousPost.url | url }}" title="{{ previousPost.data.title | escape }}"{% endif %}>←</a>
+    
+    <a class="navigation__link" href="/blog/">🔝</a>
+    
+    {% assign nextPost = collections.post | getNextCollectionItem: page %}
+    
+    <a class="navigation__link" {% if nextPost %}href="{{ nextPost.url | url }}" title="{{ nextPost.data.title | escape }}"{% endif %}>→</a>
+</nav>
+</main>

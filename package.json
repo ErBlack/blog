@@ -1,0 +1,40 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=18",
+    "npm": ">=9.5"
+  },
+  "description": "ErBlack's blog",
+  "scripts": {
+    "clean": "rm -rf _site",
+    "prebuild": "npm run clean",
+    "build": "npx @11ty/eleventy",
+    "prestart": "npm run clean",
+    "start": "eleventy --serve",
+    "images": "node ./lib/scripts/createPostDataFiles.js",
+    "normalize": "node ./lib/scripts/normalizeFileNames.js",
+    "post": "node ./lib/scripts/createPost.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ErBlack/blog.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "erblack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErBlack/blog/issues"
+  },
+  "homepage": "https://erblack.me/blog/",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-img": "^3.1.0",
+    "@types/node": "^18.15.11",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.4"
+  }
+}
