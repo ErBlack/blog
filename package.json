@@ -12,7 +12,8 @@
     "prebuild": "npm run clean",
     "build": "npx @11ty/eleventy",
     "prestart": "npm run clean",
-    "start": "eleventy --serve"
+    "start": "eleventy --serve",
+    "images": "node ./lib/scripts/createPostDataFiles.js"
   },
   "repository": {
     "type": "git",
