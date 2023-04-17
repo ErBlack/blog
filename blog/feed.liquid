@@ -12,7 +12,7 @@ permalink: /blog/feed.xml
       <title><![CDATA[{{ post.data.title | xml_escape }}]]></title>
       <link>{{ globals.host }}{{ post.url }}</link>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-      <description>{% capture postHtml %}{% for image in post.data.images %}{% sketch image %}{% endfor %}{{ post.templateContent}}{% endcapture %}<![CDATA[{{postHtml | xml_escape}}]]></description>
+      <description>{% capture postHtml %}{% for image in post.data.images %}{% sketch image, true %}{% endfor %}{{ post.templateContent}}{% endcapture %}<![CDATA[{{postHtml | xml_escape}}]]></description>
       <author>{{globals.email}}</author>
     </item>{% endfor %}
   </channel>
