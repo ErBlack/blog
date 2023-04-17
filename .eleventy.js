@@ -1,3 +1,5 @@
+const pluginXml = require('eleventy-xml-plugin');
+
 const sketch = require('./lib/shortcodes/sketch.js');
 const cover = require('./lib/shortcodes/cover.js');
 
@@ -19,4 +21,6 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addFilter('year', year);
     eleventyConfig.addFilter('strip_links', require('./lib/filters/stripLinks.js'));
+
+    eleventyConfig.addPlugin(pluginXml);
 };
