@@ -7,6 +7,7 @@
     --color-link-hover: #203ba8;
     --color-link: #265bfb;
     --color-link-visited: #522784;
+    --layout-width: calc(100vw - var(--gap-m) * 2);
     font-family: 'Montserrat', sans-serif;
     color: var(--color-text);
 }
@@ -16,6 +17,10 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+}
+
+h1 {
+    margin: 0 0 var(--gap-m) 0;
 }
 
 a {
@@ -68,10 +73,18 @@ a:hover {
 
 .layout {
     max-width: 800px;
-    padding: var(--gap-m);
+    width: var(--layout-width);
     margin: auto;
     min-height: 100%;
     display: grid;
     grid-template-rows: max-content 1fr max-content;
-    box-sizing: border-box;
+    position: relative;
+    padding: var(--gap-m) 0;
+}
+
+@media screen and (max-width: 800px) {
+    picture img {
+        max-width: var(--layout-width);
+        height: auto;
+    }
 }
