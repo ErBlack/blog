@@ -1,4 +1,5 @@
 {
+    "BUILD_PATH": "_site",
     "POSTS_PATH": "./blog/posts",
     "IMAGE_EXTENSIONS": [
         ".jpg",
@@ -7,5 +8,6 @@
         ".gif",
         ".webp",
         ".avif"
-    ]
+    ],
+    "WEB_PATH": "https://erblack.me"
 }
