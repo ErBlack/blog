@@ -17,6 +17,7 @@ const cdata = require('./lib/filters/cdata.js');
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('blog/*.css');
     eleventyConfig.addPassthroughCopy('blog/*.js');
+    eleventyConfig.addPassthroughCopy('blog/assets/*');
 
     eleventyConfig.addShortcode('sketch', sketch);
     eleventyConfig.addShortcode('cover', cover);
