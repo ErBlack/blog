@@ -7,8 +7,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/blog/main.css" />
-        {% for srtle in styles %}
-        <link rel="stylesheet" href="{{srtle}}" />
+        {% for style in styles %}
+        <link rel="stylesheet" href="{{style}}" />
         {% endfor %}
         <title>{{title}}</title>
         <link rel="icon" type="image/png" sizes="32x32" href="/blog/assets/er32.png">
@@ -16,6 +16,7 @@
         <meta property="og:site_name" content="ErBlog">
         <meta property="og:title" content={{title}}>
         {% og_image %}
+        <link rel="alternate" type="application/rss+xml" title="{{globals.title}}" href="{{globals.host}}/blog/feed.xml">
     </head>
     <body>
         {{content}}
