@@ -15,7 +15,10 @@
         <link rel="icon" type="image/png" sizes="16x16" href="/blog/assets/er16.png">
         <meta property="og:site_name" content="ErBlog">
         <meta property="og:title" content={{title}}>
-        {% og_image %}
+        <meta name="theme-color" content="#ffffff" />
+        {% og_image %}{% if globals.description %}
+        <meta property="og:description" content="{{globals.description}}">
+        <meta name="description" content="{{globals.description}}">{% endif %}
         <link rel="alternate" type="application/rss+xml" title="{{globals.title}}" href="{{globals.host}}/blog/feed.xml">
     </head>
     <body>
