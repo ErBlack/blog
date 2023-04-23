@@ -4,7 +4,7 @@ const sketch = require('./lib/shortcodes/sketch.js');
 const cover = require('./lib/shortcodes/cover.js');
 const ogImage = require('./lib/shortcodes/ogImage.js');
 
-const year = require('./lib/filters/year.js');
+const isoString = require('./lib/filters/isoString.js');
 const cdata = require('./lib/filters/cdata.js');
 
 /**
@@ -21,7 +21,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addShortcode('cover', cover);
     eleventyConfig.addShortcode('og_image', ogImage);
 
-    eleventyConfig.addFilter('year', year);
+    eleventyConfig.addFilter('iso-string', isoString);
     eleventyConfig.addFilter('cdata', cdata);
 
     eleventyConfig.addPlugin(pluginXml);
