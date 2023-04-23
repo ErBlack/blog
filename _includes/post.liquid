@@ -9,11 +9,11 @@ layout: layout.liquid
 </section>
 <nav class="navigation">
     {% assign nextPost = collections.post | getNextCollectionItem: page %}
-    <a class="navigation__link" {% if nextPost %}href="{{ nextPost.url | url }}" id="go-left" title="{{ nextPost.data.title | escape }}"{% endif %}>←</a>
+    <a class="navigation__link" {% if nextPost %}href="{{ nextPost.url | url }}" id="go-left" title="{{ nextPost.data.title | escape }}"{% endif %}>{% render "icons/left.svg",  size: 32 %}</a>
     
-    <a class="navigation__link" href="/blog/">🏠</a>
+    <a class="navigation__link" href="/blog/">{% render "icons/home.svg",  size: 32 %}</a>
 
     {% assign previousPost = collections.post | getPreviousCollectionItem: page %}
-    <a class="navigation__link" {% if previousPost %}href="{{ previousPost.url | url }}"  id="go-right" title="{{ previousPost.data.title | escape }}"{% endif %}>→</a>
+    <a class="navigation__link" {% if previousPost %}href="{{ previousPost.url | url }}"  id="go-right" title="{{ previousPost.data.title | escape }}"{% endif %}>{% render "icons/right.svg",  size: 32 %}</a>
 </nav>
 </main>

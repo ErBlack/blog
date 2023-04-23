@@ -51,3 +51,14 @@
 .preview__content p {
     margin: 0;
 }
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    gap: var(--gap-m);
+    margin-bottom: var(--gap-l);
+}
+
+.header h1 {
+    margin: 0;
+}

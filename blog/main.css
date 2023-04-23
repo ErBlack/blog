@@ -48,14 +48,18 @@ a:hover {
 
 .navigation__link {
     --pagination-link-size: 32px;
-    display: block;
-    width: var(--pagination-link-size);
+    display: flex;
+    min-width: var(--pagination-link-size);
     height: var(--pagination-link-size);
-    line-height: var(--pagination-link-size);
     text-align: center;
-    border: 1px solid currentColor;
     border-radius: var(--border-radius);
     color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation__number {
+    border: 1px solid currentColor;
 }
 
 .navigation__link:not([href]) {

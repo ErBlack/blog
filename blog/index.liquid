@@ -10,16 +10,17 @@ pagination:
     alias: posts
 ---
 <main class="layout">
-    
-   <h1>{{title}}</h1>
-    <ul class="posts">
-      {% for post in posts %}
-      <li>{% render "preview",  post: post %}</li>
-      {% endfor %}
-    </ul>
-
+  <header class="header">
+    <h1>{{title}}</h1>
+    <a href="/post/feed.xml">{% render "icons/rss.svg",  size: 32 %}</a>
+  </header>
+  <ul class="posts">
+    {% for post in posts %}
+    <li>{% render "preview",  post: post %}</li>
+    {% endfor %}
+  </ul>
 <nav class="navigation">
-  <a class="navigation__link" {% if pagination.href.previous %}href="{{ pagination.href.previous }}" id="go-left"{% endif %}>←</a>
+  <a class="navigation__link" {% if pagination.href.previous %}href="{{ pagination.href.previous }}" id="go-left"{% endif %}>{% render "icons/left.svg",  size: 32 %}</a>
   <ol class="pagination__pages">
     {% for href in pagination.hrefs %}
     <li class="pagination__item">
@@ -27,6 +28,6 @@ pagination:
     </li>
     {% endfor %}
   </ol>
-  <a class="navigation__link" {% if pagination.href.next %}href="{{ pagination.href.next }}" id="go-right"{% endif %}>→</a>
+  <a class="navigation__link" {% if pagination.href.next %}href="{{ pagination.href.next }}" id="go-right"{% endif %}>{% render "icons/right.svg",  size: 32 %}</a>
 </nav>
 <main>
