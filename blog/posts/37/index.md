@@ -5,7 +5,6 @@ tags:
     - sketch
     - ErSeketchNote
     - ErTravel
-layout: sketch.liquid
 ---
 
 Скетч из поездки в Хельсинки и Стокгольм. А к нему [карта](https://www.google.com/maps/d/edit?mid=1Ha0Z2X2Kg8JqzjLyBjQRDt4vsZ3PICY1&usp=sharing) и [ролик](https://youtu.be/siPzWyrPFK4).

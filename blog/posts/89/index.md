@@ -6,7 +6,6 @@ tags:
     - ErSketchNote
     - Talk
     - CSSMinskJs2019
-layout: sketch.liquid
 ---
 
 Чтобы писать на CSS, нужно думать как CSS.

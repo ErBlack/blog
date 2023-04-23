@@ -4,7 +4,6 @@ date: 2023-04-20
 tags:
     - sketch
     - ErPost
-layout: sketch.liquid
 ---
 
 Давным-давно, где-то в 1995 у инженеров apple появилась идея сделать спецификацию для описания структуры и содержимого сайта. Назвали её [Meta Content Framework](https://en.wikipedia.org/wiki/Meta_Content_Framework). Хотели сделать на основе этой штуки мощную 3D навигацию по сайту как в киберпанке. Идея не взлетела, но один из авторов ушел в Netscape и развил её там в [Resource Description Framework](https://en.wikipedia.org/wiki/Resource_Description_Framework) (RDF), первая R из которого это по совместительству первая буква в [RSS](https://en.wikipedia.org/wiki/RSS).

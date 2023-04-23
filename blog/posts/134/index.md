@@ -4,7 +4,6 @@ date: 2023-03-12
 tags:
     - sketch
     - ErSketchNote
-layout: sketch.liquid
 ---
 
 Заметки с воркшопа про иконки от Майка Роуди.

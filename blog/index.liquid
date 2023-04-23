@@ -1,8 +1,8 @@
 ---
 title: ErBlog
-layout: layout.liquid
+layout: html.liquid
 styles:
-    /blog/index.css
+    /blog/static/main.css
 pagination:
     data: collections.post
     size: 25
@@ -16,7 +16,7 @@ pagination:
   </header>
   <ul class="posts">
     {% for post in posts %}
-    <li>{% render "preview",  post: post %}</li>
+    <li>{% render "widgets/preview",  post: post %}</li>
     {% endfor %}
   </ul>
 <nav class="navigation">

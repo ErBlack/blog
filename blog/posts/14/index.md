@@ -4,7 +4,6 @@ date: 2022-07-16
 tags:
     - sketch
     - HowToDraw
-layout: sketch.liquid
 ---
 
 Как-то я целый год рисовал чашку кофе почти каждую неделю.

@@ -6,7 +6,6 @@ tags:
     - ErSketchNote
     - Talk
     - CSSMinskJs2019
-layout: sketch.liquid
 ---
 
 Доклад про realtime эффекты видео в браузере, хромакей и мантию невидимку.

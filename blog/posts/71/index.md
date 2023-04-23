@@ -4,7 +4,6 @@ date: 2022-10-29
 tags:
     - sketch
     - HowToDraw
-layout: sketch.liquid
 ---
 
 Для меня главный символ Петербурга – [Исаакиевский собор](https://ru.wikipedia.org/wiki/%D0%98%D1%81%D0%B0%D0%B0%D0%BA%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80), хотя я так ни разу и не поднялся наверх.

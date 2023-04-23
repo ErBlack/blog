@@ -4,7 +4,6 @@ date: 2022-12-31
 tags:
     - sketch
     - y2022
-layout: sketch.liquid
 ---
 
 🎄

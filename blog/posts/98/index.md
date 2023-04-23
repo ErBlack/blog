@@ -6,7 +6,6 @@ tags:
     - ErSketchNote
     - Talk
     - CSSMinskJs2019
-layout: sketch.liquid
 ---
 
 Доклад про то, какие проверки производительности можно навертеть в ci и логи.

@@ -6,7 +6,6 @@ tags:
     - ErSketchNote
     - Talk
     - CSSMinskJs2019
-layout: sketch.liquid
 ---
 
 Почему в Serverless столько же сервера, сколько в Wireless проводов.

@@ -4,7 +4,6 @@ date: 2022-09-10
 tags:
     - sketch
     - HowToDraw
-layout: sketch.liquid
 ---
 
 Календарь выглядит как прямоугльник с клетками.

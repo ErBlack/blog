@@ -6,7 +6,6 @@ tags:
     - ErSketchNote
     - Talk
     - CSSMinskJs2019
-layout: sketch.liquid
 ---
 
 Милый доклад про CSS как хобби. Рассказывает о том, как делать мультики, используя CSS анимацию. В [codepen есть много работ](https://codepen.io/miocene) Юли.

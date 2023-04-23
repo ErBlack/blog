@@ -1,10 +1,11 @@
 ---
-layout: layout.liquid
+layout: html.liquid
 ---
 
 <main class="layout">
 <h1>{{title | escape}}</h1>
 <section>
+    {% render "widgets/gallery" images: images %}
     {{content}}
 </section>
 <nav class="navigation">

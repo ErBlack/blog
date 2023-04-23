@@ -4,7 +4,6 @@ date: 2022-08-11
 tags:
     - sketch
     - ErSketchNote
-layout: sketch.liquid
 ---
 
 Сегодня в Новосибирском академ городке был митап “Backend Party” от Практикума. Я даже рассказывал один из докладов.

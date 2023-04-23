@@ -5,7 +5,6 @@ const cover = require('./lib/shortcodes/cover.js');
 const ogImage = require('./lib/shortcodes/ogImage.js');
 
 const year = require('./lib/filters/year.js');
-const stripLinks = require('./lib/filters/stripLinks.js');
 const cdata = require('./lib/filters/cdata.js');
 
 /**
@@ -16,16 +15,13 @@ const cdata = require('./lib/filters/cdata.js');
  * @param {UserConfig} eleventyConfig
  */
 module.exports = function (eleventyConfig) {
-    eleventyConfig.addPassthroughCopy('blog/*.css');
-    eleventyConfig.addPassthroughCopy('blog/*.js');
-    eleventyConfig.addPassthroughCopy('blog/assets/*');
+    eleventyConfig.addPassthroughCopy('blog/static/*');
 
     eleventyConfig.addShortcode('sketch', sketch);
     eleventyConfig.addShortcode('cover', cover);
     eleventyConfig.addShortcode('og_image', ogImage);
 
     eleventyConfig.addFilter('year', year);
-    eleventyConfig.addFilter('strip_links', stripLinks);
     eleventyConfig.addFilter('cdata', cdata);
 
     eleventyConfig.addPlugin(pluginXml);

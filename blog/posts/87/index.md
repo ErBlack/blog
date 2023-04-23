@@ -4,7 +4,6 @@ date: 2022-12-17
 tags:
     - sketch
     - HowToDraw
-layout: sketch.liquid
 ---
 
 С геометрической точки зрения корабль устроен просто.

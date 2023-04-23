@@ -3,5 +3,5 @@
     <div class="preview__cover">{% cover post.data.images.0, 'preview__image' %}</div>
     {% endif %}
     <h2 class="preview__title" title="{{post.data.title | escape}}">{{post.data.title | escape}}</h2>
-    <div class="preview__content">{{post.content | strip_links}}</div>
+    <div class="preview__content">{{post.content | strip_html | strip}}</div>
 </a>

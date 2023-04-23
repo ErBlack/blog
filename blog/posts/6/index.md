@@ -4,7 +4,6 @@ date: 2022-07-02
 tags:
     - sketch
     - HowToDraw
-layout: sketch.liquid
 ---
 
 Добавим вторую картинку в библиотеку.

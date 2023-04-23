@@ -4,7 +4,6 @@ date: 2022-12-24
 tags:
     - sketch
     - HowToDraw
-layout: sketch.liquid
 ---
 
 Я ни разу не пил пива до второго курса. Не нравилось оно мне.

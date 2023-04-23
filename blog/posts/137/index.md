@@ -4,7 +4,6 @@ date: 2023-03-20
 tags:
     - sketch
     - ErSketchNote
-layout: sketch.liquid
 ---
 
 Заметки с воркшопа про метафоры от Дарио Паньяагуа.

@@ -4,7 +4,6 @@ date: 2022-11-05
 tags:
     - sketch
     - HowToDraw
-layout: sketch.liquid
 ---
 
 По мотивам 🎃.

@@ -4,7 +4,6 @@ date: 2023-03-05
 tags:
     - sketch
     - ErSketchNote
-layout: sketch.liquid
 ---
 
 Прошел бесплатный курс Поваренная книга Дядюшки Боба: Как готовить Clean Architecture, который мне коллега посоветовала.

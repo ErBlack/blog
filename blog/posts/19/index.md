@@ -4,7 +4,6 @@ date: 2022-07-26
 tags:
     - sketch
     - SketchTools
-layout: sketch.liquid
 ---
 
 Ещё одна замечательная игрушка.

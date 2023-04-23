@@ -4,7 +4,6 @@ date: 2022-08-09
 tags:
     - sketch
     - HowToSketchnote
-layout: sketch.liquid
 ---
 
 Добро пожаловать в новый раздел:

@@ -4,7 +4,6 @@ date: 2023-03-26
 tags:
     - sketch
     - ErSketchNote
-layout: sketch.liquid
 ---
 
 Заметки к докладу Ирины Атанасевич про историю Сербии через архитектуру.

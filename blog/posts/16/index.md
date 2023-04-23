@@ -4,7 +4,6 @@ date: 2022-07-19
 tags:
     - sketch
     - SketchTools
-layout: sketch.liquid
 ---
 
 Это мой ежедневный оффлайн набор.

@@ -4,7 +4,6 @@ date: 2022-07-09
 tags:
     - sketch
     - HowToDraw
-layout: sketch.liquid
 ---
 
 Попробуем добавить в библиотеку слово “идея”.

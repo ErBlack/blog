@@ -5,7 +5,6 @@ tags:
     - sketch
     - ErSketchNote
     - Talk
-layout: sketch.liquid
 ---
 
 Заметки с Geek Piknik 2019 к рассказу @techsparks про ИИ.

@@ -5,7 +5,6 @@ tags:
     - sketch
     - HowToDraw
     - WSC2023
-layout: sketch.liquid
 ---
 
 №12

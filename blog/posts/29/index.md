@@ -4,7 +4,6 @@ date: 2022-08-13
 tags:
     - sketch
     - HowToDraw
-layout: sketch.liquid
 ---
 
 Чтобы нарисовать время – нужно нарисовать часы.

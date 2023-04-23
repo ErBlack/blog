@@ -4,7 +4,6 @@ date: 2022-12-11
 tags:
     - sketch
     - ErSketchNote
-layout: sketch.liquid
 ---
 
 На работе снова организовали Random Coffee.

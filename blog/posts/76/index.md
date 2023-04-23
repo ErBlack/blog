@@ -4,7 +4,6 @@ date: 2022-11-12
 tags:
     - sketch
     - HowToDraw
-layout: sketch.liquid
 ---
 
 Люблю стейки.

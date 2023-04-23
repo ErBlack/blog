@@ -4,7 +4,6 @@ date: 2022-08-16
 tags:
     - sketch
     - HowToSketchnote
-layout: sketch.liquid
 ---
 
 Сегодня разберём скетчи из путешествий.

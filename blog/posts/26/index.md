@@ -4,7 +4,6 @@ date: 2022-08-07
 tags:
     - sketch
     - ErSketchNote
-layout: sketch.liquid
 ---
 
 Скетчи можно использовать для разного.

@@ -6,7 +6,6 @@ tags:
     - ErSketchNote
     - Talk
     - CSSMinskJs2019
-layout: sketch.liquid
 ---
 
 Доклад про светлое будущее CSS, в котором мы будем писать анимированные бэкграунды на С++ или Rust.

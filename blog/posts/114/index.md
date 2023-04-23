@@ -3,7 +3,6 @@ title: Weekly Sketch Challenge
 date: 2023-01-07
 tags:
     - sketch
-layout: sketch.liquid
 ---
 
 Практика из прошлого года показала, что выученные картинки помогают быстрее делать заметки.

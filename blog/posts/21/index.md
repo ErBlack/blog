@@ -4,7 +4,6 @@ date: 2022-07-30
 tags:
     - sketch
     - HowToDraw
-layout: sketch.liquid
 ---
 
 Первый раз я нарисовал самолёт для [скетча из путешествия в Будапешт](/blog/posts/3/) в 2018 году.

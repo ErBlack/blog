@@ -4,7 +4,6 @@ date: 2022-11-06
 tags:
     - sketch
     - ErSketchNote
-layout: sketch.liquid
 ---
 
 Вчера был [воркшоп Майка Роуди про лейауты в скетчах](https://www.eventbrite.com/e/sketchnote-layout-live-workshop-tickets-425872224287).

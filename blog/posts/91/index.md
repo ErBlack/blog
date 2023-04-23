@@ -6,7 +6,6 @@ tags:
     - ErSketchNote
     - Talk
     - CSSMinskJs2019
-layout: sketch.liquid
 ---
 
 Доклад про [whitepaper](https://whitepaper.tools/). Что это такое? Из чего состоит? Зачем нужно? Про это.

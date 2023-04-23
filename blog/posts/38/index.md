@@ -4,7 +4,6 @@ date: 2022-08-30
 tags:
     - sketch
     - HowToSketchnote
-layout: sketch.liquid
 ---
 
 Структура – способ организации информации в скетче.

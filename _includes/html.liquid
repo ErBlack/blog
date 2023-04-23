@@ -6,13 +6,13 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/blog/main.css" />
+        <link rel="stylesheet" href="/blog/static/index.css" />
         {% for style in styles %}
         <link rel="stylesheet" href="{{style}}" />
         {% endfor %}
         <title>{{title}}</title>
-        <link rel="icon" type="image/png" sizes="32x32" href="/blog/assets/er32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/blog/assets/er16.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/blog/static/er32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/blog/static/er16.png">
         <meta property="og:site_name" content="ErBlog">
         <meta property="og:title" content={{title}}>
         <meta name="theme-color" content="#ffffff" />
@@ -23,6 +23,6 @@
     </head>
     <body>
         {{content}}
-        <script src="/blog/main.js"></script>
+        <script src="/blog/static/index.js"></script>
     </body>
 </html>

@@ -4,7 +4,6 @@ date: 2022-11-20
 tags:
     - sketch
     - ErSketchNote
-layout: sketch.liquid
 ---
 
 Заметки с тренинга про управление командой.

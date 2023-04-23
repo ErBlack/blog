@@ -4,7 +4,6 @@ date: 2022-08-02
 tags:
     - sketch
     - SketchTools
-layout: sketch.liquid
 ---
 
 Очень черный блокнот и несколько гелевых ручек разного цвета.

@@ -4,7 +4,6 @@ date: 2022-07-05
 tags:
     - sketch
     - SketchTools
-layout: sketch.liquid
 ---
 
 Это мой самый первый набор для скетчей.

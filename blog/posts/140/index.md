@@ -5,7 +5,6 @@ tags:
     - sketch
     - ErSketchNote
     - Talk
-layout: sketch.liquid
 ---
 
 Заметки к докладу про мониторинги. Зчаем измерять, что измерять, как записывать.

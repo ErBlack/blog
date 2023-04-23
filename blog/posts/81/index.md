@@ -4,7 +4,6 @@ date: 2022-11-26
 tags:
     - sketch
     - HowToDraw
-layout: sketch.liquid
 ---
 
 Карась — лучеперый рыб семейства карповых.
