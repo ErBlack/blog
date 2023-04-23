@@ -1,0 +1,30 @@
+iframe {
+    display: block;
+    width: var(--layout-width);
+    max-width: var(--layout-max-width);
+    margin: var(--gap-m) 0;
+}
+
+.youtube {
+    aspect-ratio: 16 / 9;
+}
+
+.post {
+    margin-bottom: var(--gap-m);
+}
+
+.post p {
+    margin: 0 0 var(--gap-m) 0;
+}
+
+.post p:last-child {
+    margin-bottom: 0;
+}
+
+.gallery {
+    margin-bottom: var(--gap-m);
+}
+
+.gallery img {
+    display: block;
+}

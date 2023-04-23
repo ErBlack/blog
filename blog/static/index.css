@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'ErSketch';
+    src: url('/blog/static/ersketch.woff2') format('woff2'), url('/blog/static/ersketch.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
 :root {
     --gap-s: 8px;
     --gap-m: 16px;
@@ -8,6 +16,7 @@
     --color-link: #265bfb;
     --color-link-visited: #522784;
     --layout-width: calc(100vw - var(--gap-m) * 2);
+    --layout-max-width: 800px;
     font-family: 'Montserrat', sans-serif;
     color: var(--color-text);
 }
@@ -76,7 +85,7 @@ a:hover {
 }
 
 .layout {
-    max-width: 800px;
+    max-width: var(--layout-max-width);
     width: var(--layout-width);
     margin: auto;
     min-height: 100%;

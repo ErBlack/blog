@@ -1,10 +1,12 @@
 ---
 layout: html.liquid
+styles:
+    /blog/static/post.css
 ---
 
 <main class="layout">
 <h1>{{title | escape}}</h1>
-<section>
+<section class="post">
     {% render "widgets/gallery" images: images %}
     {{content}}
 </section>
