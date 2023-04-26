@@ -9,6 +9,7 @@ eleventyExcludeFromCollections: true
     <link>{{globals.host}}/blog/</link>
     <description>{{globals.description}}</description>
     <language>ru</language>
+    <lastBuildDate>{{ currentDate | date_to_rfc822 }}</lastBuildDate>
     <image>
       <url>{{globals.host}}/blog/static/er32.png</url>
       <width>32</width>

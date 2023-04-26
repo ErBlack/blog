@@ -25,4 +25,6 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter('cdata', cdata);
 
     eleventyConfig.addPlugin(pluginXml);
+
+    eleventyConfig.addGlobalData('currentDate', new Date());
 };
