@@ -1,12 +1,14 @@
 ---
 title: The CSS Mindset
-date: 2022-12-18
+date: 2022-12-18T10
 tags:
     - sketch
     - ErSketchNote
     - Talk
     - CSSMinskJs2019
 ---
+
+{% render "widgets/youtube",  id: "1TsFOfBB4GA" %}
 
 Чтобы писать на CSS, нужно думать как CSS.
 

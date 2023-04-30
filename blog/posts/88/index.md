@@ -1,12 +1,14 @@
 ---
 title: The State of CSS
-date: 2022-12-18
+date: 2022-12-18T09
 tags:
     - sketch
     - ErSketchNote
     - Talk
     - CSSMinskJs2019
 ---
+
+{% render "widgets/youtube",  id: "RWe00MFAjUc" %}
 
 В 2019 году меня первый раз позвали на конференцию порисовать заметки. Даже дали для этого бесплатный билет. Спасибо, Миша!
 
