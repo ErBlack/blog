@@ -5,6 +5,14 @@ iframe {
     margin: var(--gap-m) 0;
 }
 
+h1 {
+    font-family: ersketch;
+    font-size: 64px;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 1;
+}
+
 .youtube {
     aspect-ratio: 16 / 9;
 }

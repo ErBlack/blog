@@ -93,6 +93,7 @@ a:hover {
     grid-template-rows: max-content 1fr max-content;
     position: relative;
     padding: var(--gap-m) 0;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 800px) {
