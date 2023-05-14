@@ -13,8 +13,8 @@
     "build": "npx @11ty/eleventy",
     "prestart": "npm run clean",
     "start": "eleventy --serve",
+    "preimages": "node ./lib/scripts/normalizeFileNames.js",
     "images": "node ./lib/scripts/createPostDataFiles.js",
-    "normalize": "node ./lib/scripts/normalizeFileNames.js",
     "post": "node ./lib/scripts/createPost.js"
   },
   "repository": {
