@@ -2,7 +2,6 @@
 title: 🏆 Победа
 date: 2023-05-27
 tags:
-tags:
     - sketch
     - HowToDraw
     - WSC2023
