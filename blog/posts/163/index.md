@@ -1,5 +1,5 @@
 ---
-title: Ford
+title: 🚗 Ford
 date: 2023-06-09
 tags:
     - sketch
