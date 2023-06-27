@@ -1,5 +1,5 @@
 ---
-title:
+title: TripleTen Belgrade
 date: 2023-06-26
 tags:
     - sketch
