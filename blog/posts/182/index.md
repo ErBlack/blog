@@ -1,5 +1,5 @@
 ---
-title:
+title: Little Ivan MK2
 date: 2023-08-06
 tags:
     - sketch
