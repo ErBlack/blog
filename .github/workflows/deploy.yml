@@ -29,7 +29,6 @@ jobs:
           node-version: '18'
           cache: 'npm'
       - run: npm ci
-      - run: npm run images
       - run: npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v3
