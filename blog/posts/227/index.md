@@ -4,7 +4,7 @@ date: 2024-02-03
 tags:
     - sketch
     - HowToDraw
-    - WSC2023
+    - WSC2024
 ---
 
 №5
