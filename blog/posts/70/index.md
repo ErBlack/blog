@@ -1,6 +1,6 @@
 ---
 title: Little Ivan
-date: 2022-10-25
+date: 2022-10-24
 tags:
     - sketch
     - ErSketchNote
