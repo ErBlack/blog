@@ -6,6 +6,10 @@
     font-display: swap;
 }
 
+@view-transition {
+    navigation: auto;
+}
+
 :root {
     --gap-s: 8px;
     --gap-m: 16px;
