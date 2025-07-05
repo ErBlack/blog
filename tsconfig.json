@@ -1,15 +1,20 @@
 {
     "compilerOptions": {
-        "target": "ESNext",
+        "target": "ES2022",
         "module": "ESNext",
+        "moduleResolution": "bundler",
         "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
         "strict": true,
         "allowJs": true,
         "checkJs": true,
         "noImplicitAny": false,
         "outDir": "dist",
-        "moduleResolution": "node",
         "resolveJsonModule": true,
-        "noImplicitThis": false
+        "noImplicitThis": false,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowImportingTsExtensions": false,
+        "verbatimModuleSyntax": false
     }
 }

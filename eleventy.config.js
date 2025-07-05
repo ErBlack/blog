@@ -1,20 +1,20 @@
-const pluginXml = require('eleventy-xml-plugin');
+import pluginXml from 'eleventy-xml-plugin';
 
-const sketch = require('./lib/shortcodes/sketch.js');
-const cover = require('./lib/shortcodes/cover.js');
-const ogImage = require('./lib/shortcodes/ogImage.js');
+import { sketch } from './lib/shortcodes/sketch.js';
+import { cover } from './lib/shortcodes/cover.js';
+import { ogImage } from './lib/shortcodes/ogImage.js';
 
-const isoString = require('./lib/filters/isoString.js');
-const cdata = require('./lib/filters/cdata.js');
+import { isoString } from './lib/filters/isoString.js';
+import { cdata } from './lib/filters/cdata.js';
 
 /**
- * @typedef {import('@11ty/eleventy/src/UserConfig')} UserConfig
+ * @typedef {import('@11ty/eleventy').UserConfig} UserConfig
  */
 
 /**
  * @param {UserConfig} eleventyConfig
  */
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('blog/static/*');
 
     eleventyConfig.addShortcode('sketch', sketch);
@@ -27,4 +27,4 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(pluginXml);
 
     eleventyConfig.addGlobalData('currentDate', new Date());
-};
+}

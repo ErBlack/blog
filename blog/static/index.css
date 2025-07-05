@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'ErSketch';
-    src: url('/blog/static/ersketch.woff2') format('woff2'), url('/blog/static/ersketch.woff') format('woff');
+    src:
+        url('/blog/static/ersketch.woff2') format('woff2'),
+        url('/blog/static/ersketch.woff') format('woff');
     font-weight: 100;
     font-style: normal;
     font-display: swap;

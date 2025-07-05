@@ -14,8 +14,8 @@ tags:
 
 Первый скетч про путешествия я сделал в этом скетчбуке этой ручкой. Все остальные путешествия делаю так же, чтобы выглядели одинаково.
 
--   [Moleskine Watercolour](https://www.moleskine.com/shop/notebooks/art-collection/watercolor-art/watercolour-notebook-black-8058647626765.html)
--   [Moleskine Roller Pen Plus](https://www.moleskine.com/writ.tool/classic-cap-roller-pen-plus-black-9788867324446.html)
--   [Moleskine Click Pencil](https://www.moleskine.com/shop/writing-tools/pens-pencils/pencils/click-pencil-0.7---hb-black-9788866132967.html)
--   [Nomess Bookmark](https://nomess.com/collections/workspace/products/bookmark-2-pcs?variant=41992653406435)
--   [Sakura Pigma Micron](https://www.sakuraofamerica.com/product/pigma-micron/)
+- [Moleskine Watercolour](https://www.moleskine.com/shop/notebooks/art-collection/watercolor-art/watercolour-notebook-black-8058647626765.html)
+- [Moleskine Roller Pen Plus](https://www.moleskine.com/writ.tool/classic-cap-roller-pen-plus-black-9788867324446.html)
+- [Moleskine Click Pencil](https://www.moleskine.com/shop/writing-tools/pens-pencils/pencils/click-pencil-0.7---hb-black-9788866132967.html)
+- [Nomess Bookmark](https://nomess.com/collections/workspace/products/bookmark-2-pcs?variant=41992653406435)
+- [Sakura Pigma Micron](https://www.sakuraofamerica.com/product/pigma-micron/)

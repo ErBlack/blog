@@ -2,6 +2,7 @@
   "name": "blog",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "engines": {
     "node": ">=18",
     "npm": ">=9.5"
@@ -10,12 +11,13 @@
   "scripts": {
     "clean": "rm -rf _site",
     "prebuild": "npm run clean",
-    "build": "npx @11ty/eleventy",
+    "build": "eleventy",
     "prestart": "npm run clean",
     "start": "eleventy --serve",
     "preimages": "node ./lib/scripts/normalizeFileNames.js",
     "images": "node ./lib/scripts/createPostDataFiles.js",
-    "post": "node ./lib/scripts/createPost.js"
+    "post": "node ./lib/scripts/createPost.js",
+    "fix": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -31,11 +33,11 @@
   },
   "homepage": "https://erblack.me/blog/",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-img": "^3.1.0",
-    "@types/node": "^18.15.11",
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-img": "^6.0.4",
+    "@types/node": "^24.0.10",
     "eleventy-xml-plugin": "^0.1.0",
-    "prettier": "^2.8.7",
-    "typescript": "^5.0.4"
+    "prettier": "^3.6.2",
+    "typescript": "^5.8.3"
   }
 }

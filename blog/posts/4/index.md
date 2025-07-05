@@ -12,7 +12,7 @@ tags:
 
 Главный минуc – ощущения не те. Стекло не проминается и не оказывает сопротивления. Провести прямую сложнее.
 
--   [iPad](https://www.apple.com/ipad/)
--   [Paperlike](https://paperlike.com/)
--   [Penci 2](https://www.apple.com/apple-pencil/)
--   [Notability](https://notability.com/)
+- [iPad](https://www.apple.com/ipad/)
+- [Paperlike](https://paperlike.com/)
+- [Penci 2](https://www.apple.com/apple-pencil/)
+- [Notability](https://notability.com/)
