@@ -36,3 +36,15 @@ h1 {
 .gallery img {
     display: block;
 }
+
+.gallery > :first-child img {
+    view-transition-class: cover;
+}
+
+::view-transition-new(.cover) {
+    animation: none;
+}
+
+::view-transition-old(.cover) {
+    display: none;
+}

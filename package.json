@@ -12,7 +12,6 @@
     "clean": "rm -rf _site",
     "prebuild": "npm run clean",
     "build": "eleventy",
-    "prestart": "npm run clean",
     "start": "eleventy --serve",
     "preimages": "node ./lib/scripts/normalizeFileNames.js",
     "images": "node ./lib/scripts/createPostDataFiles.js",

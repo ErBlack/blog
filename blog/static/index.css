@@ -109,3 +109,11 @@ a:hover {
         height: auto;
     }
 }
+
+::view-transition-group(*) {
+    animation-duration: 0;
+}
+
+::view-transition-group(.cover) {
+    animation-duration: 0.3s;
+}

@@ -1,1 +1,1 @@
-{% if images %}<div class="gallery">{% for image in images %}{% sketch image %}{% endfor %}</div>{% endif %}
+{% if images %}<div class="gallery">{% for image in images %}{% sketch image, false, forloop.first %}{% endfor %}</div>{% endif %}

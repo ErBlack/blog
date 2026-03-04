@@ -35,6 +35,7 @@ h1 {
 
 .preview__image {
     object-fit: cover;
+    view-transition-class: cover;
 }
 
 .preview__title {
@@ -68,4 +69,12 @@ h1 {
 
 .header h1 {
     margin: 0;
+}
+
+::view-transition-new(.cover) {
+    display: none;
+}
+
+::view-transition-old(.cover) {
+    animation: none;
 }
