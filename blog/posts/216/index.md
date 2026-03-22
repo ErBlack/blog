@@ -81,10 +81,10 @@ tags:
 
 {% sketch "./blog/posts/216/cars.png" %}
 
--   Mitsubishi Eclipse D30
--   Toyota Supra A80
--   Mazda RX7 FD
--   Nissan Skyline GTR R34
+- Mitsubishi Eclipse D30
+- Toyota Supra A80
+- Mazda RX7 FD
+- Nissan Skyline GTR R34
 
 Нарисовал длинный город с дорогой.
 

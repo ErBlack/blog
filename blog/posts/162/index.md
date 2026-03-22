@@ -16,6 +16,6 @@ tags:
 
 Рекомендованные книжки:
 
--   [📕 От Великой стены до Уолл-Стрит](https://www.goodreads.com/book/show/84451694)
--   [📗 Карта культурных различий](https://www.goodreads.com/book/show/43561553)
--   [📘 География мысли](https://www.goodreads.com/book/show/56564497)
+- [📕 От Великой стены до Уолл-Стрит](https://www.goodreads.com/book/show/84451694)
+- [📗 Карта культурных различий](https://www.goodreads.com/book/show/43561553)
+- [📘 География мысли](https://www.goodreads.com/book/show/56564497)

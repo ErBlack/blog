@@ -8,10 +8,10 @@ tags:
 
 Решил попробовать собрать в шрифт буквы, которые рисую в скетчах про путешествия.
 
--   Нарисовал каждую буковку на айпаде
--   Подредактировал в [inkskape](https://inkscape.org/)
--   Оптимизировал в [svgo](https://www.npmjs.com/package/svgo)
--   Загрузил в [glyphrstudio](https://www.glyphrstudio.com/online/)
+- Нарисовал каждую буковку на айпаде
+- Подредактировал в [inkskape](https://inkscape.org/)
+- Оптимизировал в [svgo](https://www.npmjs.com/package/svgo)
+- Загрузил в [glyphrstudio](https://www.glyphrstudio.com/online/)
 
 Получилось сложно, хотя я только заглавные буквы пока сделал. Наверное есть способы попроще. Зато теперь я могу делать презентации со своим шрифтом.
 

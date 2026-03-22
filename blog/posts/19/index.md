@@ -12,4 +12,4 @@ tags:
 
 Наклейки потом можно аккуратно встроить в скетч.
 
--   [Zoemini](https://www.canon.ru/printers/zoemini/)
+- [Zoemini](https://www.canon.ru/printers/zoemini/)
