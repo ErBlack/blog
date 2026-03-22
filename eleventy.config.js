@@ -1,6 +1,8 @@
 import pluginXml from 'eleventy-xml-plugin';
 
 import { sketch } from './lib/shortcodes/sketch.js';
+import { sketchPreload } from './lib/shortcodes/sketchPreload.js';
+import { prefetchImage } from './lib/shortcodes/prefetchImage.js';
 import { cover } from './lib/shortcodes/cover.js';
 import { ogImage } from './lib/shortcodes/ogImage.js';
 
@@ -20,6 +22,8 @@ export default function (eleventyConfig) {
     eleventyConfig.addShortcode('sketch', sketch);
     eleventyConfig.addShortcode('cover', cover);
     eleventyConfig.addShortcode('og_image', ogImage);
+    eleventyConfig.addShortcode('sketch_preload', sketchPreload);
+    eleventyConfig.addShortcode('prefetch_image', prefetchImage);
 
     eleventyConfig.addFilter('iso-string', isoString);
     eleventyConfig.addFilter('cdata', cdata);

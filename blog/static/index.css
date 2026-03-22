@@ -110,8 +110,8 @@ a:hover {
     }
 }
 
-::view-transition-group(*) {
-    animation-duration: 0;
+html {
+    view-transition-name: none;
 }
 
 ::view-transition-group(.cover) {
