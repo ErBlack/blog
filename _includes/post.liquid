@@ -12,10 +12,10 @@ styles:
     {{content}}
 </section>
 <nav class="navigation">
-    <a class="navigation__link" {% if nextPost %}href="{{ nextPost.url | url }}" id="go-left" rel="next" title="{{ nextPost.data.title | escape }}"{% endif %}>{% render "icons/left.svg",  size: 32 %}</a>
+    {% if nextPost %}<a class="navigation__link" href="{{ nextPost.url | url }}" id="go-left" rel="next" title="{{ nextPost.data.title | escape }}" aria-label="{{ nextPost.data.title | escape }}">{% render "icons/left.svg",  size: 32 %}</a>{% else %}<span class="navigation__link">{% render "icons/left.svg",  size: 32 %}</span>{% endif %}
     
     <a class="navigation__link" href="/blog/">{% render "icons/home.svg",  size: 32 %}</a>
 
-    <a class="navigation__link" {% if previousPost %}href="{{ previousPost.url | url }}" rel="prev" id="go-right" title="{{ previousPost.data.title | escape }}"{% endif %}>{% render "icons/right.svg",  size: 32 %}</a>
+    {% if previousPost %}<a class="navigation__link" href="{{ previousPost.url | url }}" rel="prev" id="go-right" title="{{ previousPost.data.title | escape }}" aria-label="{{ previousPost.data.title | escape }}">{% render "icons/right.svg",  size: 32 %}</a>{% else %}<span class="navigation__link">{% render "icons/right.svg",  size: 32 %}</span>{% endif %}
 </nav>
 </main>
