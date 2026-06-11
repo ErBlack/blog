@@ -8,8 +8,6 @@
   },
   "description": "ErBlack's blog",
   "scripts": {
-    "clean": "rm -rf _site",
-    "prebuild": "npm run clean",
     "build": "eleventy",
     "start": "eleventy --serve",
     "preimages": "node ./lib/scripts/normalizeFileNames.js",
