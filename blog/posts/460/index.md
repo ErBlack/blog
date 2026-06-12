@@ -1,5 +1,5 @@
 ---
-title: Customisable <select> and the friends we made along the way
+title: Customisable \<select\> and the friends we made along the way
 date: 2026-06-11
 tags:
     - sketch
