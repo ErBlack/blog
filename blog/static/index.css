@@ -21,6 +21,7 @@
     --color-link-hover: #203ba8;
     --color-link: #265bfb;
     --color-link-visited: #522784;
+    --color-secondary: #ccc;
     --layout-width: calc(100vw - var(--gap-m) * 2);
     --layout-max-width: 800px;
     font-family: 'Montserrat', sans-serif;
@@ -42,11 +43,11 @@ a {
     text-decoration: none;
 }
 
-a:not(:hover) {
+a:where(:not(:hover)) {
     color: var(--color-link);
 }
 
-a:not(:hover):visited {
+a:where(:not(:hover):visited) {
     color: var(--color-link-visited);
 }
 
@@ -68,9 +69,13 @@ a:hover {
     height: var(--pagination-link-size);
     text-align: center;
     border-radius: var(--border-radius);
-    color: black;
+    color: var(--color-link);
     align-items: center;
     justify-content: center;
+}
+
+.navigation__link[aria-current='page'] {
+    color: var(--color-text);
 }
 
 .navigation__number {
@@ -78,7 +83,7 @@ a:hover {
 }
 
 span.navigation__link {
-    color: #ccc;
+    color: var(--color-secondary);
 }
 
 .pagination__pages {
@@ -89,6 +94,8 @@ span.navigation__link {
     list-style: none;
     gap: var(--gap-s);
     overflow: auto;
+    scrollbar-color: var(--color-secondary) transparent;
+    scrollbar-width: thin;
 }
 
 .layout {

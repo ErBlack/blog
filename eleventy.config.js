@@ -1,4 +1,5 @@
 import pluginXml from 'eleventy-xml-plugin';
+import Image from '@11ty/eleventy-img';
 
 import { sketch } from './lib/shortcodes/sketch.js';
 import { sketchPreload } from './lib/shortcodes/sketchPreload.js';
@@ -17,6 +18,8 @@ import { cdata } from './lib/filters/cdata.js';
  * @param {UserConfig} eleventyConfig
  */
 export default function (eleventyConfig) {
+    Image.concurrency = 2;
+
     eleventyConfig.addPassthroughCopy('blog/static/*');
 
     eleventyConfig.addShortcode('sketch', sketch);
