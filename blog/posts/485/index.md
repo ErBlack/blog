@@ -1,5 +1,5 @@
 ---
-title: Шаткий
+title: ♠️ Шаткий
 date: 2026-09-30
 tags:
     - sketch
