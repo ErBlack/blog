@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/289/so_you've_decided_to_do_a_technical_migration.png"]
+    "images": [
+        "./blog/posts/289/so_you've_decided_to_do_a_technical_migration.png"
+    ],
+    "date": "2024-09-10",
+    "tags": [
+        "sketch",
+        "SmashingConfFreiburg2024"
+    ]
 }

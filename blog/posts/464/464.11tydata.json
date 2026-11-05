@@ -1,5 +1,10 @@
 {
-  "images": [
-    "./blog/posts/464/css_doom_lasers.png"
-  ]
+    "images": [
+        "./blog/posts/464/css_doom_lasers.png"
+    ],
+    "date": "2026-06-12",
+    "tags": [
+        "sketch",
+        "CSSDay2026"
+    ]
 }

@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/126/как_успеть_всё.jpg"]
+    "images": [
+        "./blog/posts/126/как_успеть_всё.jpg"
+    ],
+    "date": "2023-02-12",
+    "tags": [
+        "sketch",
+        "ErSketchNote"
+    ]
 }

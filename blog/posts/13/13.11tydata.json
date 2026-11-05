@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/13/таллин.jpg"]
+    "images": [
+        "./blog/posts/13/таллин.jpg"
+    ],
+    "date": "2022-07-14",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "ErTravel"
+    ]
 }

@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/140/мониторинги.png"]
+    "images": [
+        "./blog/posts/140/мониторинги.png"
+    ],
+    "date": "2023-03-27",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "Talk"
+    ]
 }

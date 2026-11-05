@@ -1,3 +1,12 @@
 {
-    "images": ["./blog/posts/101/14_take_on_me_web_browsers.jpg"]
+    "images": [
+        "./blog/posts/101/14_take_on_me_web_browsers.jpg"
+    ],
+    "date": "2022-12-18T22",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "Talk",
+        "CSSMinskJs2019"
+    ]
 }

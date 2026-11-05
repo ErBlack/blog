@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/37/хельсинки.jpg"]
+    "images": [
+        "./blog/posts/37/хельсинки.jpg"
+    ],
+    "date": "2022-08-28",
+    "tags": [
+        "sketch",
+        "ErSeketchNote",
+        "ErTravel"
+    ]
 }

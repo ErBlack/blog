@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/371/css_tried_to_come_for_my_job.png"]
+    "images": [
+        "./blog/posts/371/css_tried_to_come_for_my_job.png"
+    ],
+    "date": "2025-06-05",
+    "tags": [
+        "sketch",
+        "CSSDay2025"
+    ]
 }

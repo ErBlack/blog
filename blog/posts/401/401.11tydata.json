@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/401/is_atomic_design_dead?.png"]
+    "images": [
+        "./blog/posts/401/is_atomic_design_dead?.png"
+    ],
+    "date": "2025-09-09",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "SmashingConfFreiburg2025"
+    ]
 }

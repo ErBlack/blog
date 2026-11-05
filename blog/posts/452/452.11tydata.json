@@ -1,5 +1,10 @@
 {
-  "images": [
-    "./blog/posts/452/vacation.png"
-  ]
+    "images": [
+        "./blog/posts/452/vacation.png"
+    ],
+    "date": "2026-06-01",
+    "tags": [
+        "sketch",
+        "HowToDraw"
+    ]
 }

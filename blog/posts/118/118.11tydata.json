@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/118/gamepad.png"]
+    "images": [
+        "./blog/posts/118/gamepad.png"
+    ],
+    "date": "2023-01-14",
+    "tags": [
+        "sketch",
+        "HowToDraw",
+        "WSC2023"
+    ]
 }

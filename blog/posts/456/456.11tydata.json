@@ -1,5 +1,10 @@
 {
-  "images": [
-    "./blog/posts/456/the_value_pipeline.png"
-  ]
+    "images": [
+        "./blog/posts/456/the_value_pipeline.png"
+    ],
+    "date": "2026-06-11",
+    "tags": [
+        "sketch",
+        "CSSDay2026"
+    ]
 }

@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/413/reflective_travel_sketchnote.png"]
+    "images": [
+        "./blog/posts/413/reflective_travel_sketchnote.png"
+    ],
+    "date": "2025-09-13",
+    "tags": [
+        "sketch",
+        "ErSketchNote"
+    ]
 }

@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/379/refactoring_css.png"]
+    "images": [
+        "./blog/posts/379/refactoring_css.png"
+    ],
+    "date": "2025-06-06",
+    "tags": [
+        "sketch",
+        "CSSDay2025"
+    ]
 }

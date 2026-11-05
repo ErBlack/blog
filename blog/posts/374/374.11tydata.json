@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/374/design_token_architecture.png"]
+    "images": [
+        "./blog/posts/374/design_token_architecture.png"
+    ],
+    "date": "2025-06-05",
+    "tags": [
+        "sketch",
+        "CSSDay2025"
+    ]
 }

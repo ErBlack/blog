@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/239/burn_out.png"]
+    "images": [
+        "./blog/posts/239/burn_out.png"
+    ],
+    "date": "2024-03-16",
+    "tags": [
+        "sketch",
+        "HowToDraw",
+        "WSC2024"
+    ]
 }

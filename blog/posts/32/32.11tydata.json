@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/32/aps.png"]
+    "images": [
+        "./blog/posts/32/aps.png"
+    ],
+    "date": "2022-08-18",
+    "tags": [
+        "sketch",
+        "ErSketchNote"
+    ]
 }

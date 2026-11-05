@@ -1,5 +1,10 @@
 {
-  "images": [
-    "./blog/posts/479/instant_noodles.png"
-  ]
+    "images": [
+        "./blog/posts/479/instant_noodles.png"
+    ],
+    "date": "2026-08-16",
+    "tags": [
+        "sketch",
+        "HowToDraw"
+    ]
 }

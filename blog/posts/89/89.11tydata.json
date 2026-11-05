@@ -1,3 +1,12 @@
 {
-    "images": ["./blog/posts/89/02_the_css_mindset.jpg"]
+    "images": [
+        "./blog/posts/89/02_the_css_mindset.jpg"
+    ],
+    "date": "2022-12-18T10",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "Talk",
+        "CSSMinskJs2019"
+    ]
 }

@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/232/как_противостоять_манипуляциям.png"]
+    "images": [
+        "./blog/posts/232/как_противостоять_манипуляциям.png"
+    ],
+    "date": "2024-02-20",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "Argument"
+    ]
 }

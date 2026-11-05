@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/151/куда_развиваться_техлидам.jpg"]
+    "images": [
+        "./blog/posts/151/куда_развиваться_техлидам.jpg"
+    ],
+    "date": "2023-04-30",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "techleadconf2021"
+    ]
 }

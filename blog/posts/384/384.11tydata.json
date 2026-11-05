@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/384/turbocharger.png"]
+    "images": [
+        "./blog/posts/384/turbocharger.png"
+    ],
+    "date": "2025-06-14",
+    "tags": [
+        "sketch",
+        "HowToDraw",
+        "WSC2025"
+    ]
 }

@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/434/bowling_pin.png"]
+    "images": [
+        "./blog/posts/434/bowling_pin.png"
+    ],
+    "date": "2026-01-25",
+    "tags": [
+        "sketch",
+        "HowToDraw"
+    ]
 }

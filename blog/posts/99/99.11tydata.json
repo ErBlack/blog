@@ -1,3 +1,12 @@
 {
-    "images": ["./blog/posts/99/12_serverless_a_backend_thing_that_gives_superpowers_to_frontend_developers.jpg"]
+    "images": [
+        "./blog/posts/99/12_serverless_a_backend_thing_that_gives_superpowers_to_frontend_developers.jpg"
+    ],
+    "date": "2022-12-18T20",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "Talk",
+        "CSSMinskJs2019"
+    ]
 }

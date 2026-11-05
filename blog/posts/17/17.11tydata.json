@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/17/brain.png"]
+    "images": [
+        "./blog/posts/17/brain.png"
+    ],
+    "date": "2022-07-23",
+    "tags": [
+        "sketch",
+        "HowToDraw"
+    ]
 }

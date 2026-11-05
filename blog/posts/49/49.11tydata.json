@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/49/calendar.png"]
+    "images": [
+        "./blog/posts/49/calendar.png"
+    ],
+    "date": "2022-09-10",
+    "tags": [
+        "sketch",
+        "HowToDraw"
+    ]
 }

@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/130/shared_&_utils.png"]
+    "images": [
+        "./blog/posts/130/shared_&_utils.png"
+    ],
+    "date": "2023-02-26",
+    "tags": [
+        "sketch",
+        "ErSketchNote"
+    ]
 }

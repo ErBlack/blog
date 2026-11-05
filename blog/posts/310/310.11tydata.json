@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/310/caring.png"]
+    "images": [
+        "./blog/posts/310/caring.png"
+    ],
+    "date": "2024-10-31",
+    "tags": [
+        "sketch",
+        "StoicWeek2024"
+    ]
 }

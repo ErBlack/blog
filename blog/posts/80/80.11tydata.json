@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/80/управление_командой.jpg"]
+    "images": [
+        "./blog/posts/80/управление_командой.jpg"
+    ],
+    "date": "2022-11-20",
+    "tags": [
+        "sketch",
+        "ErSketchNote"
+    ]
 }

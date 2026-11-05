@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/372/select_it_styling_new_html_ui_capabilities.png"]
+    "images": [
+        "./blog/posts/372/select_it_styling_new_html_ui_capabilities.png"
+    ],
+    "date": "2025-06-05",
+    "tags": [
+        "sketch",
+        "CSSDay2025"
+    ]
 }

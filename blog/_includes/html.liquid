@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{language.code}}">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+        <link rel="preload" href="/static/ersketch.woff2" as="font" type="font/woff2" crossorigin>
+        {% if images.first %}{% sketch_preload images.first %}{% endif %}
+        <link rel="stylesheet" href="/static/index.css" />
+        {% for style in styles %}
+        <link rel="stylesheet" href="{{style}}" />
+        {% endfor %}
+        <title>{{ title | default: globals.title }}</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="/static/er32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/static/er16.png">
+        <meta property="og:site_name" content="{{ globals.title }}">
+        <meta property="og:title" content="{{ title | default: globals.title | escape }}">
+        <meta name="theme-color" content="#ffffff" />
+        {% assign og = images.first | og_image %}
+        <meta property="og:image" content="{{ og.url | default: '/static/er256.png' | htmlBaseUrl: globals.host }}">
+        <meta property="og:image:width" content="{{ og.width | default: 256 }}">
+        <meta property="og:image:height" content="{{ og.height | default: 256 }}">
+        <meta property="og:description" content="{{language.description}}">
+        <meta name="description" content="{{language.description}}">
+        <meta property="og:locale" content="{{language.locale}}">
+        <link rel="canonical" href="{{ page.url | htmlBaseUrl: globals.host }}">{% if translations.size > 1 %}{% for translation in translations %}{% if translation.language.code != language.code %}
+        <meta property="og:locale:alternate" content="{{translation.language.locale}}">{% endif %}{% endfor %}{% for translation in translations %}
+        <link rel="alternate" hreflang="{{translation.language.code}}" href="{{ translation.url | htmlBaseUrl: globals.host }}">{% endfor %}{% endif %}
+        <link rel="alternate" type="application/rss+xml" title="{{globals.title}}" href="{{ language.feed | htmlBaseUrl: globals.host }}">
+    </head>
+    <body>
+        {{content}}
+        <script src="/static/index.js" defer></script>
+    </body>
+</html>

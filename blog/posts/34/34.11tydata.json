@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/34/причина_следствие_условие.png"]
+    "images": [
+        "./blog/posts/34/причина_следствие_условие.png"
+    ],
+    "date": "2022-08-21",
+    "tags": [
+        "sketch",
+        "ErSketchNote"
+    ]
 }

@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/376/smart_layouts.png"]
+    "images": [
+        "./blog/posts/376/smart_layouts.png"
+    ],
+    "date": "2025-06-06",
+    "tags": [
+        "sketch",
+        "CSSDay2025"
+    ]
 }

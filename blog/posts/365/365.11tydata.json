@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/365/как_привратить_привычки_в_систему.png"]
+    "images": [
+        "./blog/posts/365/как_привратить_привычки_в_систему.png"
+    ],
+    "date": "2025-05-30",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "Habits"
+    ]
 }

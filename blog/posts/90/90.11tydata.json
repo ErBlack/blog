@@ -1,3 +1,12 @@
 {
-    "images": ["./blog/posts/90/03_put_your_cards_on_the_table.jpg"]
+    "images": [
+        "./blog/posts/90/03_put_your_cards_on_the_table.jpg"
+    ],
+    "date": "2022-12-18T11",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "Talk",
+        "CSSMinskJs2019"
+    ]
 }

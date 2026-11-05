@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/157/abu-dhabi.png"]
+    "images": [
+        "./blog/posts/157/abu-dhabi.png"
+    ],
+    "date": "2023-05-20",
+    "tags": [
+        "sketch",
+        "HowToDraw",
+        "WSC2023"
+    ]
 }

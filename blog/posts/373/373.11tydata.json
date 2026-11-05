@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/373/multicol_and_fragmentation.png"]
+    "images": [
+        "./blog/posts/373/multicol_and_fragmentation.png"
+    ],
+    "date": "2025-06-05",
+    "tags": [
+        "sketch",
+        "CSSDay2025"
+    ]
 }

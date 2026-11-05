@@ -1,5 +1,10 @@
 {
-  "images": [
-    "./blog/posts/469/camera.png"
-  ]
+    "images": [
+        "./blog/posts/469/camera.png"
+    ],
+    "date": "2026-06-21",
+    "tags": [
+        "sketch",
+        "HowToDraw"
+    ]
 }

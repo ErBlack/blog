@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/354/как_формируются_привычки.png"]
+    "images": [
+        "./blog/posts/354/как_формируются_привычки.png"
+    ],
+    "date": "2025-04-25",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "Habits"
+    ]
 }

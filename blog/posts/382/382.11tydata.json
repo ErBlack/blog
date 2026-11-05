@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/382/visa.png"]
+    "images": [
+        "./blog/posts/382/visa.png"
+    ],
+    "date": "2025-06-07",
+    "tags": [
+        "sketch",
+        "HowToDraw",
+        "WSC2025"
+    ]
 }

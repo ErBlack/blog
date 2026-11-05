@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/298/the_new_rules_of_ux_writing.png"]
+    "images": [
+        "./blog/posts/298/the_new_rules_of_ux_writing.png"
+    ],
+    "date": "2024-10-08",
+    "tags": [
+        "sketch",
+        "SmashingConfNewYork2024"
+    ]
 }

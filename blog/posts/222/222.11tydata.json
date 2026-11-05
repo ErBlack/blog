@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/222/monster_truck.png"]
+    "images": [
+        "./blog/posts/222/monster_truck.png"
+    ],
+    "date": "2024-01-13",
+    "tags": [
+        "sketch",
+        "HowToDraw",
+        "WSC2023"
+    ]
 }

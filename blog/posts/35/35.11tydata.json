@@ -1,3 +1,12 @@
 {
-    "images": ["./blog/posts/35/1_article.png", "./blog/posts/35/2_from.jpg", "./blog/posts/35/3_to.jpg"]
+    "images": [
+        "./blog/posts/35/1_article.png",
+        "./blog/posts/35/2_from.jpg",
+        "./blog/posts/35/3_to.jpg"
+    ],
+    "date": "2022-08-23",
+    "tags": [
+        "sketch",
+        "HowToSketchnote"
+    ]
 }

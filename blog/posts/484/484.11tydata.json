@@ -1,5 +1,10 @@
 {
-  "images": [
-    "./blog/posts/484/starfish.png"
-  ]
+    "images": [
+        "./blog/posts/484/starfish.png"
+    ],
+    "date": "2026-09-22",
+    "tags": [
+        "sketch",
+        "HowToDraw"
+    ]
 }

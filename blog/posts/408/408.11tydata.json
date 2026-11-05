@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/408/delivering_for_performance.png"]
+    "images": [
+        "./blog/posts/408/delivering_for_performance.png"
+    ],
+    "date": "2025-09-10",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "SmashingConfFreiburg2025"
+    ]
 }

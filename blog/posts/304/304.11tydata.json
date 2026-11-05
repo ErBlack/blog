@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/304/sw_2024_announcement.png"]
+    "images": [
+        "./blog/posts/304/sw_2024_announcement.png"
+    ],
+    "date": "2024-10-16",
+    "tags": [
+        "sketch",
+        "ErSketchNote"
+    ]
 }

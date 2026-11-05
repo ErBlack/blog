@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/169/1_belgrade.png", "./blog/posts/169/2_tripleten.jpeg"]
+    "images": [
+        "./blog/posts/169/1_belgrade.png",
+        "./blog/posts/169/2_tripleten.jpeg"
+    ],
+    "date": "2023-06-26",
+    "tags": [
+        "sketch",
+        "ErSketchNote"
+    ]
 }

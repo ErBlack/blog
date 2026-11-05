@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/309/character_and_virtues.png"]
+    "images": [
+        "./blog/posts/309/character_and_virtues.png"
+    ],
+    "date": "2024-10-30",
+    "tags": [
+        "sketch",
+        "StoicWeek2024"
+    ]
 }

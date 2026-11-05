@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/351/snap_flow_1.png"]
+    "images": [
+        "./blog/posts/351/snap_flow_1.png"
+    ],
+    "date": "2025-04-09",
+    "tags": [
+        "sketch",
+        "SketchTools"
+    ]
 }

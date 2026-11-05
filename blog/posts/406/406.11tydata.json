@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/406/painting_with_the_web.png"]
+    "images": [
+        "./blog/posts/406/painting_with_the_web.png"
+    ],
+    "date": "2025-09-09",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "SmashingConfFreiburg2025"
+    ]
 }

@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/335/design_better_ai_output.png"]
+    "images": [
+        "./blog/posts/335/design_better_ai_output.png"
+    ],
+    "date": "2025-01-29",
+    "tags": [
+        "sketch",
+        "DesignPatternsForAIInterfaces"
+    ]
 }

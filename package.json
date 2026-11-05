@@ -3,17 +3,18 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": ">=22",
-    "npm": ">=10.2"
+    "node": ">=26",
+    "npm": ">=11"
   },
   "description": "ErBlack's blog",
   "scripts": {
-    "build": "eleventy",
-    "start": "eleventy --serve",
-    "preimages": "node ./lib/scripts/normalizeFileNames.js",
-    "images": "node ./lib/scripts/createPostDataFiles.js",
-    "post": "node ./lib/scripts/createPost.js",
-    "fix": "prettier --log-level error --write ."
+    "build": "eleventy --config=eleventy.config.ts",
+    "start": "eleventy --serve --config=eleventy.config.ts",
+    "images": "node ./lib/scripts/images.ts",
+    "post": "node ./lib/scripts/createPost.ts",
+    "typecheck": "tsc",
+    "fix": "prettier --log-level error --write .",
+    "prepare": "git config core.hooksPath .githooks"
   },
   "repository": {
     "type": "git",

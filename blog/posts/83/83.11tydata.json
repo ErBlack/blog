@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/83/backpack.png"]
+    "images": [
+        "./blog/posts/83/backpack.png"
+    ],
+    "date": "2022-12-03",
+    "tags": [
+        "sketch",
+        "HowToDraw"
+    ]
 }

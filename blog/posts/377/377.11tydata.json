@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/377/form_control_styling.png"]
+    "images": [
+        "./blog/posts/377/form_control_styling.png"
+    ],
+    "date": "2025-06-06",
+    "tags": [
+        "sketch",
+        "CSSDay2025"
+    ]
 }

@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/405/well_i_didn't_see_that_coming.png"]
+    "images": [
+        "./blog/posts/405/well_i_didn't_see_that_coming.png"
+    ],
+    "date": "2025-09-09",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "SmashingConfFreiburg2025"
+    ]
 }

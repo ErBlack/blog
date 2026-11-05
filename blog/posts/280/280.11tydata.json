@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/280/all_users_are_stupid.png"]
+    "images": [
+        "./blog/posts/280/all_users_are_stupid.png"
+    ],
+    "date": "2024-09-09",
+    "tags": [
+        "sketch",
+        "SmashingConfFreiburg2024"
+    ]
 }

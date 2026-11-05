@@ -1,3 +1,12 @@
 {
-    "images": ["./blog/posts/92/05_how_to_make_a_world.jpg"]
+    "images": [
+        "./blog/posts/92/05_how_to_make_a_world.jpg"
+    ],
+    "date": "2022-12-18T13",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "Talk",
+        "CSSMinskJs2019"
+    ]
 }

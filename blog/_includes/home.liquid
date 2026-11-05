@@ -1,0 +1,27 @@
+---
+layout: html.liquid
+styles:
+    /static/main.css
+---
+<main class="layout">
+  <header class="header">
+    <h1>{{ title | default: globals.title }}</h1>
+    <div class="header__links">{% if translations.size > 1 %}{% render "widgets/language-switch", translations: translations, language: language %}{% endif %}<a href="{{language.feed}}" title="RSS Feed">{% render "icons/rss.svg", size: 32 %}</a></div>
+  </header>
+  <ul class="posts">
+    {% for post in posts %}
+    <li>{% render "widgets/preview",  post: post %}</li>
+    {% endfor %}
+  </ul>
+<nav class="navigation">
+  {% if pagination.href.previous %}<a class="navigation__link" rel="prev" href="{{ pagination.href.previous }}" id="go-left" aria-label="{{ language.previousPage }}">{% render "icons/left.svg",  size: 32 %}</a>{% else %}<span class="navigation__link">{% render "icons/left.svg",  size: 32 %}</span>{% endif %}
+  <ol class="pagination__pages">
+    {% for href in pagination.hrefs %}
+    <li class="pagination__item">
+      <a class="navigation__link" {% if page.url != href %}href="{{href}}"{% else %}aria-current="page"{% endif %}>{{ forloop.index }}</a>
+    </li>
+    {% endfor %}
+  </ol>
+  {% if pagination.href.next %}<a class="navigation__link" rel="next" href="{{ pagination.href.next }}" id="go-right" aria-label="{{ language.nextPage }}">{% render "icons/right.svg",  size: 32 %}</a>{% else %}<span class="navigation__link">{% render "icons/right.svg",  size: 32 %}</span>{% endif %}
+</nav>
+</main>

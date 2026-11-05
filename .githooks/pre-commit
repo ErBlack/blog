@@ -1,0 +1,3 @@
+#!/bin/sh
+bad=$(git -c core.quotepath=false diff --cached --name-only --diff-filter=AR -- blog/posts | LC_ALL=en_US.UTF-8 grep '[[:upper:]]')
+[ -z "$bad" ] || { echo "Uppercase in file names:"; echo "$bad"; exit 1; }

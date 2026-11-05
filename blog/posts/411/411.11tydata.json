@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/411/how_to_build_a_product_for_everyone.png"]
+    "images": [
+        "./blog/posts/411/how_to_build_a_product_for_everyone.png"
+    ],
+    "date": "2025-09-10",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "SmashingConfFreiburg2025"
+    ]
 }

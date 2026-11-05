@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/404/maintaining_and_modernising_legacy_css.png"]
+    "images": [
+        "./blog/posts/404/maintaining_and_modernising_legacy_css.png"
+    ],
+    "date": "2025-09-09",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "SmashingConfFreiburg2025"
+    ]
 }

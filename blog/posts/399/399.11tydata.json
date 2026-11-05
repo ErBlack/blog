@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/399/cover.png"]
+    "images": [
+        "./blog/posts/399/cover.png"
+    ],
+    "date": "2025-09-02",
+    "tags": [
+        "sketch",
+        "SmashingConfFreiburg2025"
+    ]
 }

@@ -1,5 +1,10 @@
 {
-  "images": [
-    "./blog/posts/466/modern_ui_patterns.png"
-  ]
+    "images": [
+        "./blog/posts/466/modern_ui_patterns.png"
+    ],
+    "date": "2026-06-12",
+    "tags": [
+        "sketch",
+        "CSSDay2026"
+    ]
 }

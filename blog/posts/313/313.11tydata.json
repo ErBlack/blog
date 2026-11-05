@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/313/stoic_it_up.png"]
+    "images": [
+        "./blog/posts/313/stoic_it_up.png"
+    ],
+    "date": "2024-11-02",
+    "tags": [
+        "sketch",
+        "StoicWeek2024"
+    ]
 }

@@ -1,5 +1,10 @@
 {
-  "images": [
-    "./blog/posts/455/let's_fix_the_web's_text_size.png"
-  ]
+    "images": [
+        "./blog/posts/455/let's_fix_the_web's_text_size.png"
+    ],
+    "date": "2026-06-11",
+    "tags": [
+        "sketch",
+        "CSSDay2026"
+    ]
 }

@@ -1,5 +1,10 @@
 {
-  "images": [
-    "./blog/posts/462/fun_with_grid_lanes.png"
-  ]
+    "images": [
+        "./blog/posts/462/fun_with_grid_lanes.png"
+    ],
+    "date": "2026-06-12",
+    "tags": [
+        "sketch",
+        "CSSDay2026"
+    ]
 }

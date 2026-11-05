@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/291/mushroom.png"]
+    "images": [
+        "./blog/posts/291/mushroom.png"
+    ],
+    "date": "2024-09-14",
+    "tags": [
+        "sketch",
+        "HowToDraw",
+        "WSC2024"
+    ]
 }

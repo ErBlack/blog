@@ -1,5 +1,10 @@
 {
-  "images": [
-    "./blog/posts/460/customisable_select_and_the_friends_we_made_along_the_way.png"
-  ]
+    "images": [
+        "./blog/posts/460/customisable_select_and_the_friends_we_made_along_the_way.png"
+    ],
+    "date": "2026-06-11",
+    "tags": [
+        "sketch",
+        "CSSDay2026"
+    ]
 }

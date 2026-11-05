@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    {% assign postsKey = 'post_' | append: language.code %}<title>{{globals.title}}</title>
+    <link>{{ language.home | htmlBaseUrl: globals.host }}</link>
+    <description>{{language.description}}</description>
+    <language>{{language.code}}</language>
+    <lastBuildDate>{{ currentDate | date_to_rfc822 }}</lastBuildDate>
+    <image>
+      <url>{{ '/static/er32.png' | htmlBaseUrl: globals.host }}</url>
+      <width>32</width>
+      <height>32</height>
+    </image>{% assign posts = collections[postsKey] | reverse %}{% for post in posts %}
+    <item>
+      <title>{{ post.data.title | cdata }}</title>
+      <link>{{ post.url | htmlBaseUrl: globals.host | cdata }}</link>
+      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+      <description>{% capture postHtml %}{% for image in post.data.images %}{% sketch image, true %}{% endfor %}{{ post.templateContent }}{% endcapture %}{{ postHtml | transformWithHtmlBase: globals.host | cdata }}</description>
+      <guid isPermaLink="false">{{ post.url | url | cdata }}</guid>
+    </item>{% endfor %}
+  </channel>
+</rss>

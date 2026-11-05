@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/287/do_the_next_right_thing.png"]
+    "images": [
+        "./blog/posts/287/do_the_next_right_thing.png"
+    ],
+    "date": "2024-09-10",
+    "tags": [
+        "sketch",
+        "SmashingConfFreiburg2024"
+    ]
 }

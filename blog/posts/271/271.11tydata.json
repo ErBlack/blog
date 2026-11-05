@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/271/копаем_глубже_в_feature-sliced_design.png"]
+    "images": [
+        "./blog/posts/271/копаем_глубже_в_feature-sliced_design.png"
+    ],
+    "date": "2024-07-29",
+    "tags": [
+        "sketch",
+        "Я💛Фронтенд2024"
+    ]
 }

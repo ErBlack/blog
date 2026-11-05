@@ -1,5 +1,10 @@
 {
-  "images": [
-    "./blog/posts/467/contextualism.png"
-  ]
+    "images": [
+        "./blog/posts/467/contextualism.png"
+    ],
+    "date": "2026-06-12",
+    "tags": [
+        "sketch",
+        "CSSDay2026"
+    ]
 }

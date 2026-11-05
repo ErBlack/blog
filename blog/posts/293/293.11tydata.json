@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/293/burger.png"]
+    "images": [
+        "./blog/posts/293/burger.png"
+    ],
+    "date": "2024-09-28",
+    "tags": [
+        "sketch",
+        "HowToDraw",
+        "WSC2024"
+    ]
 }

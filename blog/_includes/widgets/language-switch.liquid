@@ -1,0 +1,1 @@
+{% for translation in translations %}{% if translation.language.code != language.code %}<a href="{{translation.url}}" hreflang="{{translation.language.code}}" lang="{{translation.language.code}}" title="{{translation.language.name}}" aria-label="{{translation.language.name}}">{{translation.language.code | upcase}}</a>{% endif %}{% endfor %}

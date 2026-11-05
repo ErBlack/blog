@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/6/2._микрофон.png"]
+    "images": [
+        "./blog/posts/6/2._микрофон.png"
+    ],
+    "date": "2022-07-02",
+    "tags": [
+        "sketch",
+        "HowToDraw"
+    ]
 }

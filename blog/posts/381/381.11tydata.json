@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/381/the_goose_and_the_common.png"]
+    "images": [
+        "./blog/posts/381/the_goose_and_the_common.png"
+    ],
+    "date": "2025-06-06",
+    "tags": [
+        "sketch",
+        "CSSDay2025"
+    ]
 }

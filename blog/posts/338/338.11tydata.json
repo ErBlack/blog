@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/338/embedding_ai_into_existing_products.png"]
+    "images": [
+        "./blog/posts/338/embedding_ai_into_existing_products.png"
+    ],
+    "date": "2025-02-05",
+    "tags": [
+        "sketch",
+        "DesignPatternsForAIInterfaces"
+    ]
 }

@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/393/faucet.png"]
+    "images": [
+        "./blog/posts/393/faucet.png"
+    ],
+    "date": "2025-08-03",
+    "tags": [
+        "sketch",
+        "HowToDraw",
+        "WSC2025"
+    ]
 }

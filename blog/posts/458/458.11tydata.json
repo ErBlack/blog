@@ -1,5 +1,10 @@
 {
-  "images": [
-    "./blog/posts/458/color-scheming.png"
-  ]
+    "images": [
+        "./blog/posts/458/color-scheming.png"
+    ],
+    "date": "2026-06-11",
+    "tags": [
+        "sketch",
+        "CSSDay2026"
+    ]
 }

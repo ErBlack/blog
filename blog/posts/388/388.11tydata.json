@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/388/toothbrush.png"]
+    "images": [
+        "./blog/posts/388/toothbrush.png"
+    ],
+    "date": "2025-07-05",
+    "tags": [
+        "sketch",
+        "HowToDraw",
+        "WSC2025"
+    ]
 }

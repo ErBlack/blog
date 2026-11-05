@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/253/the_great_atuint.png"]
+    "images": [
+        "./blog/posts/253/the_great_atuint.png"
+    ],
+    "date": "2024-05-04",
+    "tags": [
+        "sketch",
+        "HowToDraw",
+        "WSC2024"
+    ]
 }

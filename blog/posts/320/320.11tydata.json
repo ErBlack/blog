@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/320/2_как_управлять_своим_телом.png"]
+    "images": [
+        "./blog/posts/320/2_как_управлять_своим_телом.png"
+    ],
+    "date": "2024-12-04",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "Charisma"
+    ]
 }

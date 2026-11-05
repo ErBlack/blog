@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/229/тень.png"]
+    "images": [
+        "./blog/posts/229/тень.png"
+    ],
+    "date": "2024-02-10",
+    "tags": [
+        "sketch",
+        "HowToDraw",
+        "WSC2024"
+    ]
 }

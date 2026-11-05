@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/296/is_atomic_design_dead.png"]
+    "images": [
+        "./blog/posts/296/is_atomic_design_dead.png"
+    ],
+    "date": "2024-10-08",
+    "tags": [
+        "sketch",
+        "SmashingConfNewYork2024"
+    ]
 }

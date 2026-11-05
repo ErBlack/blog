@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/190/черногория.jpg"]
+    "images": [
+        "./blog/posts/190/черногория.jpg"
+    ],
+    "date": "2023-09-10",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "ErTravel"
+    ]
 }

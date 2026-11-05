@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/366/fingerprint.png"]
+    "images": [
+        "./blog/posts/366/fingerprint.png"
+    ],
+    "date": "2025-05-31",
+    "tags": [
+        "sketch",
+        "HowToDraw",
+        "WSC2025"
+    ]
 }

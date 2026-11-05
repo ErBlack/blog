@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/431/sd.png"]
+    "images": [
+        "./blog/posts/431/sd.png"
+    ],
+    "date": "2026-01-11",
+    "tags": [
+        "sketch",
+        "ErPost"
+    ]
 }

@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/137/metaphors_workshop.png"]
+    "images": [
+        "./blog/posts/137/metaphors_workshop.png"
+    ],
+    "date": "2023-03-20",
+    "tags": [
+        "sketch",
+        "ErSketchNote"
+    ]
 }

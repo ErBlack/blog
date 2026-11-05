@@ -1,5 +1,10 @@
 {
-  "images": [
-    "./blog/posts/461/css_is_eating_javascript.png"
-  ]
+    "images": [
+        "./blog/posts/461/css_is_eating_javascript.png"
+    ],
+    "date": "2026-06-12",
+    "tags": [
+        "sketch",
+        "CSSDay2026"
+    ]
 }

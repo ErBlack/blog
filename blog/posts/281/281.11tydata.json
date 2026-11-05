@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/281/03_accessability_in_data_visualisation.png"]
+    "images": [
+        "./blog/posts/281/03_accessability_in_data_visualisation.png"
+    ],
+    "date": "2024-09-09",
+    "tags": [
+        "sketch",
+        "SmashingConfFreiburg2024"
+    ]
 }

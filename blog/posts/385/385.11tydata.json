@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/385/как_поддерживать_драйв.png"]
+    "images": [
+        "./blog/posts/385/как_поддерживать_драйв.png"
+    ],
+    "date": "2025-06-18",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "TimeManagement"
+    ]
 }

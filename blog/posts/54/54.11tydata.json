@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/54/18.07.17_1_spb_frontend.jpg"]
+    "images": [
+        "./blog/posts/54/18.07.17_1_spb_frontend.jpg"
+    ],
+    "date": "2022-09-20",
+    "tags": [
+        "sketch",
+        "ErSketchNote"
+    ]
 }

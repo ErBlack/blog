@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/226/как_услышать_и_быть_услышанным.png"]
+    "images": [
+        "./blog/posts/226/как_услышать_и_быть_услышанным.png"
+    ],
+    "date": "2024-01-31",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "Argument"
+    ]
 }

@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/147/rss.png"]
+    "images": [
+        "./blog/posts/147/rss.png"
+    ],
+    "date": "2023-04-20",
+    "tags": [
+        "sketch",
+        "ErPost"
+    ]
 }

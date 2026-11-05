@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/346/два_по_цене_одного.png"]
+    "images": [
+        "./blog/posts/346/два_по_цене_одного.png"
+    ],
+    "date": "2025-03-18",
+    "tags": [
+        "sketch",
+        "ErPost"
+    ]
 }

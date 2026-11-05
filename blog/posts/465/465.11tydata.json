@@ -1,5 +1,10 @@
 {
-  "images": [
-    "./blog/posts/465/forging_our_own_paths.png"
-  ]
+    "images": [
+        "./blog/posts/465/forging_our_own_paths.png"
+    ],
+    "date": "2026-06-12",
+    "tags": [
+        "sketch",
+        "CSSDay2026"
+    ]
 }

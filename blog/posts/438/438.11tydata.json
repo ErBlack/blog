@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/438/extinguisher.png"]
+    "images": [
+        "./blog/posts/438/extinguisher.png"
+    ],
+    "date": "2026-02-21",
+    "tags": [
+        "sketch",
+        "HowToDraw"
+    ]
 }

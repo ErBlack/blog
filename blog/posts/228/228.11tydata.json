@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/228/как_построить_хороший_аргумент.png"]
+    "images": [
+        "./blog/posts/228/как_построить_хороший_аргумент.png"
+    ],
+    "date": "2024-02-06",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "Argument"
+    ]
 }

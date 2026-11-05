@@ -1,3 +1,12 @@
 {
-    "images": ["./blog/posts/95/08_yes_your_site_can_(and_should)_be_accessible.jpg"]
+    "images": [
+        "./blog/posts/95/08_yes_your_site_can_(and_should)_be_accessible.jpg"
+    ],
+    "date": "2022-12-18T16",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "Talk",
+        "CSSMinskJs2019"
+    ]
 }

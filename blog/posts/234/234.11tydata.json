@@ -1,3 +1,12 @@
 {
-    "images": ["./blog/posts/234/логические_уловки.png", "./blog/posts/234/примеры_уловок.png"]
+    "images": [
+        "./blog/posts/234/логические_уловки.png",
+        "./blog/posts/234/примеры_уловок.png"
+    ],
+    "date": "2024-02-27",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "Argument"
+    ]
 }

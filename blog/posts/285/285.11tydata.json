@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/285/symphony_of_the_web.png"]
+    "images": [
+        "./blog/posts/285/symphony_of_the_web.png"
+    ],
+    "date": "2024-09-10",
+    "tags": [
+        "sketch",
+        "SmashingConfFreiburg2024"
+    ]
 }

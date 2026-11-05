@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/52/pair_programming.png"]
+    "images": [
+        "./blog/posts/52/pair_programming.png"
+    ],
+    "date": "2022-09-17",
+    "tags": [
+        "sketch",
+        "HowToDraw"
+    ]
 }

@@ -1,5 +1,10 @@
 {
-  "images": [
-    "./blog/posts/483/mustache.png"
-  ]
+    "images": [
+        "./blog/posts/483/mustache.png"
+    ],
+    "date": "2026-09-14",
+    "tags": [
+        "sketch",
+        "HowToDraw"
+    ]
 }

@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/424/pain.png"]
+    "images": [
+        "./blog/posts/424/pain.png"
+    ],
+    "date": "2025-11-23",
+    "tags": [
+        "sketch",
+        "HowToDraw",
+        "WSC2025"
+    ]
 }

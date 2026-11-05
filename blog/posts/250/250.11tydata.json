@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/250/belgrade_js_3.png"]
+    "images": [
+        "./blog/posts/250/belgrade_js_3.png"
+    ],
+    "date": "2024-04-25",
+    "tags": [
+        "sketch",
+        "BelgradeJS"
+    ]
 }

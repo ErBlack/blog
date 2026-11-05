@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/221/sketchnoting_101.png"]
+    "images": [
+        "./blog/posts/221/sketchnoting_101.png"
+    ],
+    "date": "2024-01-12",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "Talk"
+    ]
 }

@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/23/black_and_white.jpg", "./blog/posts/23/black_and_white_2.jpg"]
+    "images": [
+        "./blog/posts/23/black_and_white.jpg",
+        "./blog/posts/23/black_and_white_2.jpg"
+    ],
+    "date": "2022-08-02",
+    "tags": [
+        "sketch",
+        "SketchTools"
+    ]
 }

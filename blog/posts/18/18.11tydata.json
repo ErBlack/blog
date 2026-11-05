@@ -1,3 +1,12 @@
 {
-    "images": ["./blog/posts/18/как_быть_стоиком_4.png"]
+    "images": [
+        "./blog/posts/18/как_быть_стоиком_4.png"
+    ],
+    "date": "2022-07-24",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "Book",
+        "HowToBeAStoic"
+    ]
 }

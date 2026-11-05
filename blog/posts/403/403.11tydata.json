@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/403/why_aren't_people_using_my_dashboard?.png"]
+    "images": [
+        "./blog/posts/403/why_aren't_people_using_my_dashboard?.png"
+    ],
+    "date": "2025-09-09",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "SmashingConfFreiburg2025"
+    ]
 }

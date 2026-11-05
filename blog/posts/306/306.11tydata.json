@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/306/lighthouse.png"]
+    "images": [
+        "./blog/posts/306/lighthouse.png"
+    ],
+    "date": "2024-10-26",
+    "tags": [
+        "sketch",
+        "HowToDraw",
+        "WSC2024"
+    ]
 }

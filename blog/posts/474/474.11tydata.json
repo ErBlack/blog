@@ -1,5 +1,10 @@
 {
-  "images": [
-    "./blog/posts/474/paperclip.png"
-  ]
+    "images": [
+        "./blog/posts/474/paperclip.png"
+    ],
+    "date": "2026-07-19",
+    "tags": [
+        "sketch",
+        "HowToDraw"
+    ]
 }

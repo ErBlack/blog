@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/333/designing_better_prompts_for_ai.png"]
+    "images": [
+        "./blog/posts/333/designing_better_prompts_for_ai.png"
+    ],
+    "date": "2025-01-23",
+    "tags": [
+        "sketch",
+        "DesignPatternsForAIInterfaces"
+    ]
 }

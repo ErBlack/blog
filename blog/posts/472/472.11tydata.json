@@ -1,5 +1,10 @@
 {
-  "images": [
-    "./blog/posts/472/neuron.png"
-  ]
+    "images": [
+        "./blog/posts/472/neuron.png"
+    ],
+    "date": "2026-07-12",
+    "tags": [
+        "sketch",
+        "HowToDraw"
+    ]
 }

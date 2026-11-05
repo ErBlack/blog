@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/390/little_max_i_car.png", "./blog/posts/390/little_max_i_kake.jpg"]
+    "images": [
+        "./blog/posts/390/little_max_i_car.png",
+        "./blog/posts/390/little_max_i_kake.jpg"
+    ],
+    "date": "2025-07-16",
+    "tags": [
+        "sketch",
+        "ErSketchNote"
+    ]
 }

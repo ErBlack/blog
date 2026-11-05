@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/336/design_kpis_for_ai_interfaces.png"]
+    "images": [
+        "./blog/posts/336/design_kpis_for_ai_interfaces.png"
+    ],
+    "date": "2025-01-31",
+    "tags": [
+        "sketch",
+        "DesignPatternsForAIInterfaces"
+    ]
 }

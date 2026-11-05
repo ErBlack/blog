@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/288/the_shape_of_ai.png"]
+    "images": [
+        "./blog/posts/288/the_shape_of_ai.png"
+    ],
+    "date": "2024-09-10",
+    "tags": [
+        "sketch",
+        "SmashingConfFreiburg2024"
+    ]
 }

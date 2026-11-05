@@ -1,5 +1,10 @@
 {
-  "images": [
-    "./blog/posts/445/fridge.png"
-  ]
+    "images": [
+        "./blog/posts/445/fridge.png"
+    ],
+    "date": "2026-04-12",
+    "tags": [
+        "sketch",
+        "HowToDraw"
+    ]
 }

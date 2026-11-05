@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/194/боксерская_перчатка.png"]
+    "images": [
+        "./blog/posts/194/боксерская_перчатка.png"
+    ],
+    "date": "2023-09-30",
+    "tags": [
+        "sketch",
+        "HowToDraw",
+        "WSC2023"
+    ]
 }

@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/392/stepledder.png"]
+    "images": [
+        "./blog/posts/392/stepledder.png"
+    ],
+    "date": "2025-07-27",
+    "tags": [
+        "sketch",
+        "HowToDraw",
+        "WSC2025"
+    ]
 }

@@ -1,3 +1,12 @@
 {
-    "images": ["./blog/posts/100/13_best_friends_forever_when_a_front-end_developer_is_a_little_bit_back-end.jpg"]
+    "images": [
+        "./blog/posts/100/13_best_friends_forever_when_a_front-end_developer_is_a_little_bit_back-end.jpg"
+    ],
+    "date": "2022-12-18T21",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "Talk",
+        "CSSMinskJs2019"
+    ]
 }

@@ -1,5 +1,10 @@
 {
-  "images": [
-    "./blog/posts/463/breaking_with_habits.png"
-  ]
+    "images": [
+        "./blog/posts/463/breaking_with_habits.png"
+    ],
+    "date": "2026-06-12",
+    "tags": [
+        "sketch",
+        "CSSDay2026"
+    ]
 }

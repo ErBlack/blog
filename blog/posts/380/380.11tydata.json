@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/380/display_green_applying_the_web_sustainability_guidelines.png"]
+    "images": [
+        "./blog/posts/380/display_green_applying_the_web_sustainability_guidelines.png"
+    ],
+    "date": "2025-06-06",
+    "tags": [
+        "sketch",
+        "CSSDay2025"
+    ]
 }

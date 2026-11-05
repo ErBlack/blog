@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/78/font.png"]
+    "images": [
+        "./blog/posts/78/font.png"
+    ],
+    "date": "2022-11-15",
+    "tags": [
+        "sketch",
+        "ErSketchNote"
+    ]
 }

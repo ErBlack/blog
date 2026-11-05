@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/215/christmas_tree.png"]
+    "images": [
+        "./blog/posts/215/christmas_tree.png"
+    ],
+    "date": "2023-12-16",
+    "tags": [
+        "sketch",
+        "HowToDraw",
+        "WSC2023"
+    ]
 }

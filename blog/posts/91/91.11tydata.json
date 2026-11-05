@@ -1,3 +1,12 @@
 {
-    "images": ["./blog/posts/91/04_yet_another_talk_about_design_systems.jpg"]
+    "images": [
+        "./blog/posts/91/04_yet_another_talk_about_design_systems.jpg"
+    ],
+    "date": "2022-12-18T12",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "Talk",
+        "CSSMinskJs2019"
+    ]
 }

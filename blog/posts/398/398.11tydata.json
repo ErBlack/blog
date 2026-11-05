@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/398/virus.png"]
+    "images": [
+        "./blog/posts/398/virus.png"
+    ],
+    "date": "2025-08-30",
+    "tags": [
+        "sketch",
+        "HowToDraw",
+        "WSC2025"
+    ]
 }

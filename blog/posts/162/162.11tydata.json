@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/162/культурный_интеллект.png"]
+    "images": [
+        "./blog/posts/162/культурный_интеллект.png"
+    ],
+    "date": "2023-06-06",
+    "tags": [
+        "sketch",
+        "ErSketchNote"
+    ]
 }

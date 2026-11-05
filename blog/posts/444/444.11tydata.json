@@ -1,5 +1,10 @@
 {
-  "images": [
-    "./blog/posts/444/spider.png"
-  ]
+    "images": [
+        "./blog/posts/444/spider.png"
+    ],
+    "date": "2026-04-05",
+    "tags": [
+        "sketch",
+        "HowToDraw"
+    ]
 }

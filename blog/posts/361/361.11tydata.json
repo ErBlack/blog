@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/361/как_избежать_провала.png"]
+    "images": [
+        "./blog/posts/361/как_избежать_провала.png"
+    ],
+    "date": "2025-05-16",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "Habits"
+    ]
 }

@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/57/font.png"]
+    "images": [
+        "./blog/posts/57/font.png"
+    ],
+    "date": "2022-09-27",
+    "tags": [
+        "sketch",
+        "HowToSketchnote"
+    ]
 }

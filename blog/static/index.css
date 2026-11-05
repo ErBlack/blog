@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'ErSketch';
     src:
-        url('/blog/static/ersketch.woff2') format('woff2'),
-        url('/blog/static/ersketch.woff') format('woff');
+        url('ersketch.woff2') format('woff2'),
+        url('ersketch.woff') format('woff');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -37,6 +37,10 @@ body {
 
 h1 {
     margin: 0 0 var(--gap-m) 0;
+    font-family: ErSketch;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 1;
 }
 
 a {
@@ -96,6 +100,23 @@ span.navigation__link {
     overflow: auto;
     scrollbar-color: var(--color-secondary) transparent;
     scrollbar-width: thin;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    gap: var(--gap-m);
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header__links {
+    display: flex;
+    gap: var(--gap-m);
+    align-items: center;
 }
 
 .layout {

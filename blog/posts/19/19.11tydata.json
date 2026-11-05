@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/19/zoemini.jpg", "./blog/posts/19/zoemini.png"]
+    "images": [
+        "./blog/posts/19/zoemini.jpg",
+        "./blog/posts/19/zoemini.png"
+    ],
+    "date": "2022-07-26",
+    "tags": [
+        "sketch",
+        "SketchTools"
+    ]
 }

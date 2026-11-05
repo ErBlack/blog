@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/279/getting_to_the_glass.png"]
+    "images": [
+        "./blog/posts/279/getting_to_the_glass.png"
+    ],
+    "date": "2024-09-09",
+    "tags": [
+        "sketch",
+        "SmashingConfFreiburg2024"
+    ]
 }

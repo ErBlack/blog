@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/176/внутреннее_комьюнити.jpg"]
+    "images": [
+        "./blog/posts/176/внутреннее_комьюнити.jpg"
+    ],
+    "date": "2023-07-16",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "techleadconf2021"
+    ]
 }

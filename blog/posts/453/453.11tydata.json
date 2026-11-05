@@ -1,5 +1,10 @@
 {
-  "images": [
-    "./blog/posts/453/speedboat.png"
-  ]
+    "images": [
+        "./blog/posts/453/speedboat.png"
+    ],
+    "date": "2026-06-07",
+    "tags": [
+        "sketch",
+        "HowToDraw"
+    ]
 }

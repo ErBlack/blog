@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/301/web_components_can’t_save_us__but_you_can.png"]
+    "images": [
+        "./blog/posts/301/web_components_can’t_save_us__but_you_can.png"
+    ],
+    "date": "2024-10-09",
+    "tags": [
+        "sketch",
+        "SmashingConfNewYork2024"
+    ]
 }

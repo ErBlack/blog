@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/171/gamedev_стать_лучшим_и_пережить_успех.jpg"]
+    "images": [
+        "./blog/posts/171/gamedev_стать_лучшим_и_пережить_успех.jpg"
+    ],
+    "date": "2023-07-02",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "techleadconf2021"
+    ]
 }

@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/410/teaching_an_old_dog_new_tricks.png"]
+    "images": [
+        "./blog/posts/410/teaching_an_old_dog_new_tricks.png"
+    ],
+    "date": "2025-09-10",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "SmashingConfFreiburg2025"
+    ]
 }

@@ -1,3 +1,12 @@
 {
-    "images": ["./blog/posts/45/7.png"]
+    "images": [
+        "./blog/posts/45/7.png"
+    ],
+    "date": "2022-09-04",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "Talk",
+        "DUMP2022"
+    ]
 }

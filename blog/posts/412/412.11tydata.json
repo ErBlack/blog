@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/412/game_on.png"]
+    "images": [
+        "./blog/posts/412/game_on.png"
+    ],
+    "date": "2025-09-10",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "SmashingConfFreiburg2025"
+    ]
 }

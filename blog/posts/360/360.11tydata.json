@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/360/naive_realism.png"]
+    "images": [
+        "./blog/posts/360/naive_realism.png"
+    ],
+    "date": "2025-05-14",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "ErPost"
+    ]
 }

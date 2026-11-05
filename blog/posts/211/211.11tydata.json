@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/211/sail_boat.png"]
+    "images": [
+        "./blog/posts/211/sail_boat.png"
+    ],
+    "date": "2023-12-02",
+    "tags": [
+        "sketch",
+        "HowToDraw",
+        "WSC2023"
+    ]
 }

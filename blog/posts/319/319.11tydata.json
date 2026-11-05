@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/319/1_как_определить_свою_харизму.png"]
+    "images": [
+        "./blog/posts/319/1_как_определить_свою_харизму.png"
+    ],
+    "date": "2024-12-03",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "Charisma"
+    ]
 }

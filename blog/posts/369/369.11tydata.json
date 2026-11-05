@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/369/a_dao_of_css.png"]
+    "images": [
+        "./blog/posts/369/a_dao_of_css.png"
+    ],
+    "date": "2025-06-05",
+    "tags": [
+        "sketch",
+        "CSSDay2025"
+    ]
 }

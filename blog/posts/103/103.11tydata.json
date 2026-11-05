@@ -1,3 +1,12 @@
 {
-    "images": ["./blog/posts/103/16_gaining_insight.jpg"]
+    "images": [
+        "./blog/posts/103/16_gaining_insight.jpg"
+    ],
+    "date": "2022-12-19T01",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "Talk",
+        "CSSMinskJs2019"
+    ]
 }

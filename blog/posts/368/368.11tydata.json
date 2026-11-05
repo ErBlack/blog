@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/368/level_up_your_scroll_ux.png"]
+    "images": [
+        "./blog/posts/368/level_up_your_scroll_ux.png"
+    ],
+    "date": "2025-06-05",
+    "tags": [
+        "sketch",
+        "CSSDay2025"
+    ]
 }

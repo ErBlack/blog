@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/128/как_продать_вакансию.jpg"]
+    "images": [
+        "./blog/posts/128/как_продать_вакансию.jpg"
+    ],
+    "date": "2023-02-19",
+    "tags": [
+        "sketch",
+        "ErSketchNote"
+    ]
 }

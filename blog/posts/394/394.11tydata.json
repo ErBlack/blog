@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/394/little_ivan_mkiv.png", "./blog/posts/394/little_ivan_mkiv_cake.png"]
+    "images": [
+        "./blog/posts/394/little_ivan_mkiv.png",
+        "./blog/posts/394/little_ivan_mkiv_cake.png"
+    ],
+    "date": "2025-08-06",
+    "tags": [
+        "sketch",
+        "ErSketchNote"
+    ]
 }

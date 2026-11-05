@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/418/linden_tree.png"]
+    "images": [
+        "./blog/posts/418/linden_tree.png"
+    ],
+    "date": "2025-10-12",
+    "tags": [
+        "sketch",
+        "HowToDraw",
+        "WSC2025"
+    ]
 }

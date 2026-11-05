@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/297/how_to_use_ai_to_build_accessible_products.png"]
+    "images": [
+        "./blog/posts/297/how_to_use_ai_to_build_accessible_products.png"
+    ],
+    "date": "2024-10-08",
+    "tags": [
+        "sketch",
+        "SmashingConfNewYork2024"
+    ]
 }

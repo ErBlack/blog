@@ -1,5 +1,10 @@
 {
-  "images": [
-    "./blog/posts/475/capybara.png"
-  ]
+    "images": [
+        "./blog/posts/475/capybara.png"
+    ],
+    "date": "2026-07-26",
+    "tags": [
+        "sketch",
+        "HowToDraw"
+    ]
 }

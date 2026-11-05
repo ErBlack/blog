@@ -1,5 +1,10 @@
 {
-  "images": [
-    "./blog/posts/447/astronaut.png"
-  ]
+    "images": [
+        "./blog/posts/447/astronaut.png"
+    ],
+    "date": "2026-04-26",
+    "tags": [
+        "sketch",
+        "HowToDraw"
+    ]
 }

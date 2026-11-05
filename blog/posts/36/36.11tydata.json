@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/36/machine_learning.png"]
+    "images": [
+        "./blog/posts/36/machine_learning.png"
+    ],
+    "date": "2022-08-27",
+    "tags": [
+        "sketch",
+        "HowToDraw"
+    ]
 }

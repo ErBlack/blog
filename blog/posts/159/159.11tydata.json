@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/159/victory.png"]
+    "images": [
+        "./blog/posts/159/victory.png"
+    ],
+    "date": "2023-05-27",
+    "tags": [
+        "sketch",
+        "HowToDraw",
+        "WSC2023"
+    ]
 }

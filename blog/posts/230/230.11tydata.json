@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/230/как_завоевать_и_использовать_доверие.png"]
+    "images": [
+        "./blog/posts/230/как_завоевать_и_использовать_доверие.png"
+    ],
+    "date": "2024-02-13",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "Argument"
+    ]
 }

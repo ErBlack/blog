@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/432/playstation.png"]
+    "images": [
+        "./blog/posts/432/playstation.png"
+    ],
+    "date": "2026-01-11",
+    "tags": [
+        "sketch",
+        "HowToDraw"
+    ]
 }

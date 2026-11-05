@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/409/philosophy_for_designers.png"]
+    "images": [
+        "./blog/posts/409/philosophy_for_designers.png"
+    ],
+    "date": "2025-09-10",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "SmashingConfFreiburg2025"
+    ]
 }

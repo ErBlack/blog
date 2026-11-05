@@ -1,0 +1,22 @@
+[
+    {
+        "code": "ru",
+        "name": "Русский",
+        "description": "Блог со скетчами, не только про скетчи",
+        "locale": "ru_RU",
+        "home": "/",
+        "feed": "/feed.xml",
+        "previousPage": "Предыдущая страница",
+        "nextPage": "Следующая страница"
+    },
+    {
+        "code": "en",
+        "name": "English",
+        "description": "A blog with sketches, and not only about sketches",
+        "locale": "en_US",
+        "home": "/en/",
+        "feed": "/en/feed.xml",
+        "previousPage": "Previous page",
+        "nextPage": "Next page"
+    }
+]

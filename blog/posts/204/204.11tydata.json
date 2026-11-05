@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/204/d4.png"]
+    "images": [
+        "./blog/posts/204/d4.png"
+    ],
+    "date": "2023-11-09",
+    "tags": [
+        "sketch",
+        "StoicWeek2023"
+    ]
 }

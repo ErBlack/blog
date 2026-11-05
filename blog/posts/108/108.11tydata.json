@@ -1,3 +1,10 @@
 {
-    "images": ["./blog/posts/108/all.jpg"]
+    "images": [
+        "./blog/posts/108/all.jpg"
+    ],
+    "date": "2022-12-26",
+    "tags": [
+        "sketch",
+        "y2022"
+    ]
 }

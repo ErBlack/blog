@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/236/как_убеждать_разных_людей.png"]
+    "images": [
+        "./blog/posts/236/как_убеждать_разных_людей.png"
+    ],
+    "date": "2024-03-05",
+    "tags": [
+        "sketch",
+        "ErSketchNote",
+        "Argument"
+    ]
 }

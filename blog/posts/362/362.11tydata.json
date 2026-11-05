@@ -1,3 +1,11 @@
 {
-    "images": ["./blog/posts/362/jerrycan.png"]
+    "images": [
+        "./blog/posts/362/jerrycan.png"
+    ],
+    "date": "2025-05-17",
+    "tags": [
+        "sketch",
+        "HowToDraw",
+        "WSC2025"
+    ]
 }

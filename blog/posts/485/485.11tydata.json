@@ -1,5 +1,10 @@
 {
-  "images": [
-    "./blog/posts/485/flimsy.png"
-  ]
+    "images": [
+        "./blog/posts/485/flimsy.png"
+    ],
+    "date": "2026-09-30",
+    "tags": [
+        "sketch",
+        "HowToDraw"
+    ]
 }
