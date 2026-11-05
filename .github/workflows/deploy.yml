@@ -30,6 +30,14 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: npm run typecheck
+      - uses: actions/cache@v4
+        with:
+          path: |
+            _site/posts/*/*.avif
+            _site/posts/*/*.webp
+            _site/posts/*/*.jpeg
+          key: images-${{ hashFiles('blog/posts/*/*.11tydata.json') }}
+          restore-keys: images-
       - run: npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v4
