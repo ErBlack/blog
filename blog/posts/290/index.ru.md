@@ -2,4 +2,4 @@
 title: Bridge the Gap between Design and Development, One Token at a Time
 ---
 
-Talk about how to build relationships between designers and developers.
+Доклад о том, как выстроить отношения между дизайнерами и разработчиками.

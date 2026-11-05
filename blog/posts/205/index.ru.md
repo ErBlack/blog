@@ -1,7 +1,7 @@
 ---
-title: Stoic Week Day 5
+title: Стоическая неделя. День 5
 ---
 
-Friday: Seeing the bigger picture
+Пятница: Взгляд на картину в целом
 
-One night I realized that the milky way is a view for the disk of the galaxy from the inside. It was cool.
+Однажды ночью я понял, что Млечный Путь — это вид на диск галактики изнутри. Это было круто.

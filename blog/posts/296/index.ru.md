@@ -2,4 +2,4 @@
 title: Is Atomic Design Dead?
 ---
 
-The talk about design systems in AI age.
+Доклад про дизайн-системы в эпоху ИИ.

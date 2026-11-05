@@ -2,4 +2,4 @@
 title: Belgrade JS 3
 ---
 
-Today’s Belgrade JS is all about java script gotchas)
+Сегодняшний Belgrade JS целиком про подводные камни JavaScript)

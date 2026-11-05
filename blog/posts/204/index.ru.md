@@ -1,5 +1,5 @@
 ---
-title: Stoic Week Day 4
+title: Стоическая неделя. День 4
 ---
 
-Thursday: Caring for ourselves and others
+Четверг: Забота о себе и других

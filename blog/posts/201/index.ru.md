@@ -1,5 +1,5 @@
 ---
-title: Stoic Week Day 1
+title: Стоическая неделя. День 1
 ---
 
-Monday: Control
+Понедельник: Контроль

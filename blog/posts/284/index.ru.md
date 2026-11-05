@@ -2,4 +2,4 @@
 title: Typographer vs. Accessibility
 ---
 
-An amazing performance showcasing how to create accessible texts using fonts.
+Потрясающее выступление о том, как с помощью шрифтов делать доступные тексты.

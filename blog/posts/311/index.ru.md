@@ -1,5 +1,5 @@
 ---
-title: 'Friday: Seeing the Bigger Picture'
+title: 'Пятница: Взгляд на картину в целом'
 ---
 
-We're just flying on a huge rock through the void.
+Мы просто летим на огромном камне сквозь пустоту.

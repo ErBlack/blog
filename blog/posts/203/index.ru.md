@@ -1,5 +1,5 @@
 ---
-title: Stoic Week Day 3
+title: Стоическая неделя. День 3
 ---
 
-Wednesday: Character and Virtues
+Среда: Характер и Достоинства

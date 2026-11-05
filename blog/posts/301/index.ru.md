@@ -2,4 +2,4 @@
 title: Web Components Can't Save Us. But You Can!
 ---
 
-A talk on how web components won't save the web from poor performance. You still have to think.
+Доклад о том, что веб-компоненты не спасут веб от плохой производительности. Думать всё равно придётся.

@@ -1,5 +1,5 @@
 ---
-title: 'Wednesday: Character and Virtues'
+title: 'Среда: Характер и добродетели'
 ---
 
-Wisdom, courage, self-control, justice – things that help you live more simply and pleasantly.
+Мудрость, смелость, самообладание, справедливость — то, что помогает жить проще и приятнее.

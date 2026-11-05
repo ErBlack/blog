@@ -1,5 +1,5 @@
 ---
-title: 'Tuesday: Emotions'
+title: 'Вторник: Эмоции'
 ---
 
-Your own thoughts and beliefs about others' actions or words cause offense, not the actions or words themselves.
+Обижают не чужие поступки или слова, а ваши собственные мысли и убеждения о них.

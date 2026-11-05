@@ -1,5 +1,5 @@
 ---
-title: Stoic Week Day 2
+title: Стоическая неделя. День 2
 ---
 
-Tuesday: Emotions
+Вторник: Эмоции

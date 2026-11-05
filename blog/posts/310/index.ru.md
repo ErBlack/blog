@@ -1,5 +1,5 @@
 ---
-title: 'Thursday: Caring for ourselves and others'
+title: 'Четверг: Забота о себе и других'
 ---
 
-Put your own oxygen mask on first.
+Сначала наденьте маску на себя.

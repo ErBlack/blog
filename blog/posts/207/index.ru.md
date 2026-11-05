@@ -1,5 +1,5 @@
 ---
-title: Stoic Week Day 6
+title: Стоическая неделя. День 6
 ---
 
-Sixth day. Stoic it up!
+Шестой день. Больше стоицизма!

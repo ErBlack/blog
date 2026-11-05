@@ -2,4 +2,4 @@
 title: All Users Are Stupid
 ---
 
-The awesome talk describes why smart people become stupid users and how to solve that problem.
+Классный доклад о том, почему умные люди становятся глупыми пользователями и как решить эту проблему.
