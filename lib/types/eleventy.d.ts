@@ -8,6 +8,7 @@ declare module '@11ty/eleventy' {
         addPassthroughCopy(path: string): void;
         addShortcode(name: string, shortcode: (...args: never[]) => unknown): void;
         addFilter(name: string, filter: (...args: never[]) => unknown): void;
+        addPreprocessor(name: string, extensions: string, preprocessor: (...args: never[]) => unknown): void;
         addCollection(name: string, collection: (api: CollectionApi) => unknown): void;
         addPlugin(plugin: (eleventyConfig: UserConfig) => void): void;
         addGlobalData(name: string, data: unknown): void;

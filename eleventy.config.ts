@@ -13,6 +13,7 @@ import { ogImage } from './lib/shortcodes/ogImage.ts';
 import { isoString } from './lib/filters/isoString.ts';
 import { cdata } from './lib/filters/cdata.ts';
 import { imageSrcsetBasePlugin } from './lib/plugins/imageSrcsetBase.ts';
+import { scheduled } from './lib/preprocessors/scheduled.ts';
 import languages from './blog/_data/languages.json' with { type: 'json' };
 
 export const config = {
@@ -42,6 +43,8 @@ export default function (eleventyConfig: UserConfig) {
 
     eleventyConfig.addFilter('iso-string', isoString);
     eleventyConfig.addFilter('cdata', cdata);
+
+    if (process.env.ELEVENTY_RUN_MODE !== 'serve') eleventyConfig.addPreprocessor('scheduled', 'md', scheduled);
 
     for (const { code } of languages) {
         eleventyConfig.addCollection(`post_${code}`, api => api.getFilteredByGlob(`${input}posts/*/index.${code}.md`));
