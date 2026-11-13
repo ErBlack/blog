@@ -5,6 +5,8 @@ import { imageOutput, type ImageDirs } from '../imageOutput.ts';
 
 export const SIZES = '(max-width: 832px) calc(100vw - 32px), 800px';
 
+const FULL_SIZE = 5000;
+
 export const sketchPreview = (src: string, imageDirs: ImageDirs) =>
     Image(src, {
         widths: [400, 800],
@@ -29,8 +31,12 @@ export const sketch =
 
         const preview = await sketchPreview(src, imageDirs);
 
+        const [[{ width, height }]] = Object.values(
+            await Image(src, { statsOnly: true, widths: ['auto'], formats: ['auto'] })
+        );
+
         const full = await Image(src, {
-            widths: [6000],
+            widths: [width < height ? Math.floor((FULL_SIZE * width) / height) : FULL_SIZE],
             formats: ['jpeg'],
             ...imageOutput(src, imageDirs),
             filenameFormat: function (_hash: string, src: string, _width: number, format: string) {

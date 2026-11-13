@@ -24,7 +24,11 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    outputs:
+      build-time: ${{ steps.build-time.outputs.value }}
     steps:
+      - id: build-time
+        run: echo "value=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_OUTPUT"
       - name: Checkout
         uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -42,6 +46,8 @@ jobs:
           key: images-${{ hashFiles('blog/posts/*/*.11tydata.json') }}
           restore-keys: images-
       - run: npm run build
+        env:
+          BUILD_TIME: ${{ steps.build-time.outputs.value }}
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload pages
@@ -51,3 +57,26 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  telegram:
+    needs: deploy
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Fetch previous commit
+        if: github.event_name == 'push'
+        continue-on-error: true
+        run: git fetch --depth=1 origin ${{ github.event.before }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '26'
+      - run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - run: node lib/scripts/telegram.ts ${{ github.event.before }}
+        env:
+          BUILD_TIME: ${{ needs.deploy.outputs.build-time }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}

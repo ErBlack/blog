@@ -4,10 +4,11 @@ declare module '@11ty/eleventy-img' {
     type Metadata = Record<string, ImageItem[]>;
 
     type Options = {
-        widths: number[];
+        widths: (number | 'auto')[];
         formats: string[];
-        outputDir: string;
-        urlPath: string;
+        outputDir?: string;
+        urlPath?: string;
+        statsOnly?: boolean;
         filenameFormat?: (id: string, src: string, width: number, format: string) => string;
         sharpJpegOptions?: object;
         sharpWebpOptions?: object;

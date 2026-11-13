@@ -1,6 +1,7 @@
 import { readdir, writeFile, mkdir } from 'fs/promises';
 
 import { config } from '../../eleventy.config.ts';
+import languages from '../../blog/_data/languages.json' with { type: 'json' };
 
 const POSTS_PATH = `./${config.dir.input}/posts`;
 
@@ -18,9 +19,11 @@ const postId = maxPostId + 1;
 
 await mkdir(`${POSTS_PATH}/${postId}`);
 
-await writeFile(`${POSTS_PATH}/${postId}/index.ru.md`, '---\ntitle: \n---\n');
+for (const { code } of languages) {
+    await writeFile(`${POSTS_PATH}/${postId}/index.${code}.md`, '---\ntitle: \n---\n');
+}
 
 await writeFile(
     `${POSTS_PATH}/${postId}/${postId}.11tydata.json`,
-    `${JSON.stringify({ date: formatDate(today), tags: ['sketch'] }, null, 4)}\n`
+    `${JSON.stringify({ date: formatDate(today) }, null, 4)}\n`
 );
