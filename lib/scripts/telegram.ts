@@ -53,14 +53,17 @@ for (const id of ids) {
     const { tags = [], images = [] } = data;
     const markdown = [
         ...images.map((src: string) => `![](${SITE}/posts/${id}/${basename(src, extname(src))}.jpeg)`),
-        tags.map((tag: string) => `\\#${tag}`).join(' '),
-        (await readFile(textPath(id), 'utf8'))
-            .replace(/^---\n[\s\S]*?\n---\n/, '')
-            .replaceAll('](/', `](${SITE}/`)
-            .trim(),
-    ]
-        .filter(Boolean)
-        .join('\n\n');
+        [
+            tags.map((tag: string) => `\\#${tag}`).join(' '),
+            ...(await readFile(textPath(id), 'utf8'))
+                .replace(/^---\n[\s\S]*?\n---\n/, '')
+                .replaceAll('](/', `](${SITE}/`)
+                .trim()
+                .split(/\n{2,}/),
+        ]
+            .filter(Boolean)
+            .join('<br><br>'),
+    ].join('\n\n');
 
     if (markdown.includes('{%') || markdown.length > TEXT_LIMIT || images.length > MEDIA_LIMIT) continue;
 
