@@ -5,7 +5,7 @@ import { imageOutput, type ImageDirs } from '../imageOutput.ts';
 
 export const SIZES = '(max-width: 832px) calc(100vw - 32px), 800px';
 
-const FULL_SIZE = 5000;
+const FULL_SIZE = 3000;
 
 export const sketchPreview = (src: string, imageDirs: ImageDirs) =>
     Image(src, {
@@ -43,7 +43,7 @@ export const sketch =
                 return `${basename(src, extname(src))}.${format}`;
             },
             sharpJpegOptions: {
-                quality: 98,
+                quality: 85,
                 progressive: true,
             },
         });
